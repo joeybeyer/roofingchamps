@@ -43,7 +43,7 @@ function page(title, description, body, schema = [], slug = "") {
   <meta property="og:description" content="${esc(description)}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${esc(canonical)}">
-  <meta property="og:image" content="${brand.domain}/assets/roofing-champs-logo-512.png">
+  <meta property="og:image" content="${brand.domain}/assets/roofing-champs-logo-512.png?v=2">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -67,7 +67,7 @@ function page(title, description, body, schema = [], slug = "") {
 function header() {
   return `<header class="site-header">
   <a class="brand" href="/">
-    <span class="brand-mark"><img src="/assets/roofing-champs-logo-square.png" alt="" aria-hidden="true"></span>
+    <span class="brand-mark"><img src="/assets/roofing-champs-logo-square.png?v=2" alt="" aria-hidden="true"></span>
     <span><strong>Roofing Champs</strong><small>Fast roofing help</small></span>
   </a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
@@ -85,7 +85,7 @@ function header() {
 function footer() {
   return `<footer class="site-footer">
   <div>
-    <a class="brand footer-brand" href="/"><span class="brand-mark"><img src="/assets/roofing-champs-logo-square.png" alt="" aria-hidden="true"></span><span><strong>Roofing Champs</strong><small>${brand.promise}</small></span></a>
+    <a class="brand footer-brand" href="/"><span class="brand-mark"><img src="/assets/roofing-champs-logo-square.png?v=2" alt="" aria-hidden="true"></span><span><strong>Roofing Champs</strong><small>${brand.promise}</small></span></a>
     <p>Roofing Champs helps homeowners request roofing estimates for leaks, storm damage, inspections, repairs, and replacements. We do not use fake local addresses or fake reviews.</p>
   </div>
   <div>
@@ -162,7 +162,7 @@ function hero({ kicker, h1, description, cta = "Get My Free Roofing Estimate", c
     </ul>
   </div>
   <figure class="hero-visual">
-    <img src="/assets/roofing-champs-hero.png" alt="Roofing professional speaking with a homeowner outside a suburban home">
+    <img src="/assets/roofing-champs-hero.png?v=2" alt="Roofing professional speaking with a homeowner outside a suburban home">
   </figure>
 </section>`;
 }
