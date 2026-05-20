@@ -4,6 +4,7 @@ const { brand, services, cities, marketCopy, problemPages } = require("./site-da
 
 const root = path.resolve(__dirname, "..");
 const out = path.join(root, "site");
+const builtPages = [];
 
 const esc = (value) =>
   String(value).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
@@ -14,14 +15,22 @@ function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
 }
 
-function writePage(slug, html) {
+function writePage(slug, html, options = {}) {
   const dir = slug ? path.join(out, slug) : out;
   ensureDir(dir);
   fs.writeFileSync(path.join(dir, "index.html"), html);
+  if (options.index !== false) {
+    builtPages.push({
+      slug,
+      url: `${brand.domain}${slug ? `/${slug}/` : "/"}`,
+      priority: options.priority || (slug ? "0.70" : "1.00"),
+    });
+  }
 }
 
-function page(title, description, body, schema = []) {
+function page(title, description, body, schema = [], slug = "") {
   const schemaBlocks = schema.map((item) => `<script type="application/ld+json">${JSON.stringify(item)}</script>`).join("\n");
+  const canonical = `${brand.domain}${slug ? `/${slug}/` : "/"}`;
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -29,6 +38,12 @@ function page(title, description, body, schema = []) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
+  <link rel="canonical" href="${esc(canonical)}">
+  <meta property="og:title" content="${esc(title)}">
+  <meta property="og:description" content="${esc(description)}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${esc(canonical)}">
+  <meta property="og:image" content="${brand.domain}/assets/roofing-champs-hero.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
@@ -186,7 +201,7 @@ function home() {
     ["Do I need repair or replacement?", "That depends on roof age, damage severity, leak history, and whether the problem is isolated or widespread."],
     ["Does Roofing Champs use fake local addresses?", "No. City pages use service-area information and do not rely on fake physical offices."],
   ])}`;
-  writePage("", page("Roofing Champs | Fast Roofing Help for Homeowners", brand.promise, body, baseSchema()));
+  writePage("", page("Roofing Champs | Fast Roofing Help for Homeowners", brand.promise, body, baseSchema(), ""), { priority: "1.00" });
 }
 
 function cityPage(city) {
@@ -212,7 +227,7 @@ function cityPage(city) {
   }).join("")}</div></section>
   ${faqBlock(faqs)}
   <section class="section final-cta"><h2>Request Roofing Help in ${city.city}</h2><p>Tell us what is happening with your roof and start a free estimate request.</p><a class="btn primary" href="#quote-form">Get My Free Roofing Estimate</a></section>`;
-  writePage(city.slug, page(city.title, city.meta, body, citySchema(city, faqs)));
+  writePage(city.slug, page(city.title, city.meta, body, citySchema(city, faqs), city.slug), { priority: "0.85" });
 }
 
 function servicePage(service) {
@@ -229,14 +244,14 @@ function servicePage(service) {
   <section class="section"><div class="section-head"><p class="eyebrow">Service areas</p><h2>Popular local pages</h2></div><div class="link-grid">${cities.slice(0, 8).map((city) => `<a href="${city.url}">${city.city}, ${city.stateAbbr}</a>`).join("")}</div></section>
   ${faqBlock(faqs)}
   <section class="section final-cta"><h2>Request ${service.name} Help</h2><p>Start a roofing estimate request and get the next step moving.</p><a class="btn primary" href="#quote-form">Get My Free Roofing Estimate</a></section>`;
-  writePage(service.slug, page(`${service.name} | Roofing Champs`, service.description, body, serviceSchema(service, faqs)));
+  writePage(service.slug, page(`${service.name} | Roofing Champs`, service.description, body, serviceSchema(service, faqs), service.slug), { priority: "0.80" });
 }
 
 function trustPage(slug, title, h1, copy) {
   const body = `${hero({ kicker: "Roofing help made simple", h1, description: copy, cta: "Start My Roofing Request" })}
   ${trustBar()}
   <section id="quote-form" class="section split">${quoteForm()}<div><h2>${h1}</h2><p>${copy}</p><p>Roofing Champs keeps the process clear: describe the issue, share the property location, and request help for repair, inspection, storm damage, or replacement options.</p></div></section>`;
-  writePage(slug, page(`${title} | Roofing Champs`, copy, body, baseSchema()));
+  writePage(slug, page(`${title} | Roofing Champs`, copy, body, baseSchema(), slug), { priority: "0.55" });
 }
 
 function serviceAreas() {
@@ -244,7 +259,7 @@ function serviceAreas() {
   ${trustBar()}
   <section class="section"><div class="section-head"><p class="eyebrow">New Jersey</p><h2>New Jersey Service Areas</h2></div><div class="link-grid">${cities.filter((city) => city.stateAbbr === "NJ").map((city) => `<a href="${city.url}">${city.city}, NJ</a>`).join("")}</div></section>
   <section class="section band"><div class="section-head"><p class="eyebrow">California</p><h2>California Service Areas</h2></div><div class="link-grid">${cities.filter((city) => city.stateAbbr === "CA").map((city) => `<a href="${city.url}">${city.city}, CA</a>`).join("")}</div></section>`;
-  writePage("service-areas", page("Service Areas | Roofing Champs", "View Roofing Champs service-area pages for New Jersey and California roofing estimate requests.", body, baseSchema()));
+  writePage("service-areas", page("Service Areas | Roofing Champs", "View Roofing Champs service-area pages for New Jersey and California roofing estimate requests.", body, baseSchema(), "service-areas"), { priority: "0.80" });
 }
 
 function problemPage(problem) {
@@ -256,7 +271,59 @@ function problemPage(problem) {
     ["When should I request roofing help?", "Request help quickly if water is entering the home, damage is spreading, or you are not sure whether the roof is safe."],
     ["Could this mean I need a new roof?", "Possibly. Replacement depends on roof age, extent of damage, leak history, material condition, and inspection findings."],
   ])}`;
-  writePage(problem.slug, page(`${problem.title}: What Homeowners Should Do | Roofing Champs`, `Learn what homeowners should do about ${problem.title.toLowerCase()} and when to request roofing help.`, body, baseSchema()));
+  writePage(problem.slug, page(`${problem.title}: What Homeowners Should Do | Roofing Champs`, `Learn what homeowners should do about ${problem.title.toLowerCase()} and when to request roofing help.`, body, baseSchema(), problem.slug), { priority: "0.65" });
+}
+
+function utilityFiles() {
+  const today = new Date().toISOString().slice(0, 10);
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${builtPages
+  .map(
+    (item) => `  <url>
+    <loc>${item.url}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>${item.priority}</priority>
+  </url>`
+  )
+  .join("\n")}
+</urlset>
+`;
+
+  const robots = `User-agent: *
+Allow: /
+
+Sitemap: ${brand.domain}/sitemap.xml
+`;
+
+  const headers = `/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+`;
+
+  fs.writeFileSync(path.join(out, "sitemap.xml"), sitemap);
+  fs.writeFileSync(path.join(out, "robots.txt"), robots);
+  fs.writeFileSync(path.join(out, "_headers"), headers);
+}
+
+function notFoundPage() {
+  const body = `${hero({
+    kicker: "Page not found",
+    h1: "This Roofing Champs Page Is Not Available",
+    description:
+      "The page may have moved, but you can still request roofing help for leaks, storm damage, inspections, repairs, and replacement estimates.",
+    cta: "Start My Roofing Request",
+  })}
+  <section id="quote-form" class="section split">${quoteForm()}<div><h2>Find Roofing Help</h2><p>Use the main service pages or service-area page to continue.</p><div class="link-grid"><a href="/roof-repair/">Roof Repair</a><a href="/emergency-roof-repair/">Emergency Roof Repair</a><a href="/roof-replacement/">Roof Replacement</a><a href="/service-areas/">Service Areas</a></div></div></section>`;
+  fs.writeFileSync(
+    path.join(out, "404.html"),
+    page("Page Not Found | Roofing Champs", "Find Roofing Champs roofing help pages and request a roofing estimate.", body, baseSchema(), "404")
+  );
 }
 
 function baseSchema() {
@@ -327,5 +394,7 @@ trustPage("reviews", "Reviews", "Roofing Champs Reviews", "Real customer feedbac
 trustPage("partner-disclosure", "Partner Disclosure", "Partner Disclosure", "Roofing Champs may connect homeowners with roofing professionals or service providers. Consent is not a condition of purchase.");
 trustPage("privacy-policy", "Privacy Policy", "Privacy Policy", "This page explains how Roofing Champs may collect and use information submitted through roofing request forms.");
 trustPage("terms", "Terms", "Terms of Use", "These terms describe use of the Roofing Champs website and roofing request process.");
+notFoundPage();
+utilityFiles();
 
 console.log(`Built ${cities.length + services.length + problemPages.length + 8} pages in ${out}`);
