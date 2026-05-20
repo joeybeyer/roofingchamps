@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
-  <title id="title">Roofing Champs logo</title>
-  <rect width="512" height="512" rx="64" fill="#102A43"/>
-  <path d="M104 218 256 104l152 114v50L256 154 104 268z" fill="#F5B700"/>
-  <path d="M142 262h228v118c0 18-15 33-33 33H175c-18 0-33-15-33-33z" fill="#FFFFFF"/>
-  <path d="m214 329 32 32 70-82" fill="none" stroke="#102A43" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M256 26 278 71 327 78 292 112 300 160 256 137 212 160 220 112 185 78 234 71z" fill="#F5B700"/>
-</svg>

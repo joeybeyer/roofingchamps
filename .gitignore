@@ -4,4 +4,5 @@ node_modules/
 server.out.log
 server.err.log
 roofingchamps-site.zip
+Gemini_Generated_Image_*.png
 .env

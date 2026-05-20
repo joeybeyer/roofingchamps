@@ -43,7 +43,11 @@ function page(title, description, body, schema = [], slug = "") {
   <meta property="og:description" content="${esc(description)}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${esc(canonical)}">
-  <meta property="og:image" content="${brand.domain}/assets/roofing-champs-hero.png">
+  <meta property="og:image" content="${brand.domain}/assets/roofing-champs-logo-512.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
@@ -63,7 +67,7 @@ function page(title, description, body, schema = [], slug = "") {
 function header() {
   return `<header class="site-header">
   <a class="brand" href="/">
-    <span class="brand-mark">RC</span>
+    <span class="brand-mark"><img src="/assets/roofing-champs-logo-square.png" alt="" aria-hidden="true"></span>
     <span><strong>Roofing Champs</strong><small>Fast roofing help</small></span>
   </a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
@@ -81,7 +85,7 @@ function header() {
 function footer() {
   return `<footer class="site-footer">
   <div>
-    <a class="brand footer-brand" href="/"><span class="brand-mark">RC</span><span><strong>Roofing Champs</strong><small>${brand.promise}</small></span></a>
+    <a class="brand footer-brand" href="/"><span class="brand-mark"><img src="/assets/roofing-champs-logo-square.png" alt="" aria-hidden="true"></span><span><strong>Roofing Champs</strong><small>${brand.promise}</small></span></a>
     <p>Roofing Champs helps homeowners request roofing estimates for leaks, storm damage, inspections, repairs, and replacements. We do not use fake local addresses or fake reviews.</p>
   </div>
   <div>
@@ -333,7 +337,7 @@ function baseSchema() {
       "@type": "Organization",
       name: brand.name,
       url: brand.domain,
-      logo: `${brand.domain}/assets/roofing-champs-logo.svg`,
+      logo: `${brand.domain}/assets/roofing-champs-logo.png`,
       contactPoint: { "@type": "ContactPoint", telephone: brand.phone, contactType: "customer service" },
     },
     { "@context": "https://schema.org", "@type": "WebSite", name: brand.name, url: brand.domain },

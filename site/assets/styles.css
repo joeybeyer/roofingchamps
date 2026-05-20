@@ -100,17 +100,19 @@ p {
 }
 
 .brand-mark {
-  display: grid;
   width: 42px;
   height: 42px;
-  place-items: center;
   border: 2px solid var(--gold);
   border-radius: 8px;
-  color: var(--gold);
   background: var(--navy);
-  font-family: Montserrat, Inter, sans-serif;
-  font-size: 0.95rem;
-  font-weight: 800;
+  overflow: hidden;
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 2px;
 }
 
 .site-nav {
