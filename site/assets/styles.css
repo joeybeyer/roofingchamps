@@ -129,7 +129,7 @@ p {
 
 .site-nav {
   display: flex;
-  gap: 18px;
+  gap: clamp(10px, 1.2vw, 18px);
   justify-content: center;
   align-items: center;
   color: var(--charcoal);
@@ -163,10 +163,10 @@ p {
 .nav-panel {
   position: absolute;
   z-index: 30;
-  top: calc(100% + 12px);
+  top: calc(100% + 6px);
   left: 0;
   display: grid;
-  min-width: 250px;
+  min-width: 280px;
   gap: 8px;
   padding: 14px;
   border: 1px solid var(--line);
@@ -194,6 +194,7 @@ p {
   display: block;
   padding: 5px 0;
   line-height: 1.25;
+  white-space: normal;
 }
 
 .site-nav a,
