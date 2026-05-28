@@ -135,45 +135,58 @@
   <span>Fast estimate requests</span>
   <span>Homeowner-friendly process</span>
 </section>
-  <section id="quote-form" class="section split"><form class="quote-form" data-quote-form>
+  <section id="quote-form" class="section split"><form class="quote-form quote-form-stepped" data-quote-form>
   <div class="form-head">
     <p class="eyebrow">Free roofing estimate request</p>
-    <h2>Tell us what is happening with your roof.</h2>
-    <p>No obligation. Your property location helps confirm service availability.</p>
+    <h2>Check roofing help in your area.</h2>
+    <p>Start with your ZIP. We'll use the next step to understand the roof issue.</p>
   </div>
-  <label>What do you need help with?
-    <select name="service_requested">
-      <option>Roof leak</option>
-      <option>Storm damage</option>
-      <option>Missing shingles</option>
-      <option>Roof replacement</option>
-      <option>Roof inspection</option>
-      <option>Commercial roof issue</option>
-      <option>Maintenance or restoration</option>
-      <option>Custom roof planning</option>
-      <option>Not sure</option>
-    </select>
-  </label>
-  <label>How soon do you need help?
-    <select name="urgency">
-      <option>Emergency / ASAP</option>
-      <option>This week</option>
-      <option>Within 2 weeks</option>
-      <option>Just comparing quotes</option>
-    </select>
-  </label>
-  <div class="field-grid">
-    <label>City<input name="city" value=""></label>
-    <label>ZIP<input name="zip" inputmode="numeric"></label>
+  <div class="step-dots" aria-hidden="true"><span class="is-active"></span><span></span><span></span></div>
+  <input type="hidden" name="city" value="">
+  <input type="hidden" name="service_requested" value="Not sure">
+  <input type="hidden" name="urgency" value="Fast callback requested">
+  <div class="form-step is-active" data-step="1">
+    <label>ZIP code
+      <input name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="Enter ZIP" required>
+    </label>
+    <p class="form-nudge">We'll confirm local availability before routing the request.</p>
+    <button class="btn primary form-next" type="button">Check Availability</button>
   </div>
-  <div class="field-grid">
-    <label>Name<input name="name" autocomplete="name"></label>
-    <label>Phone<input name="phone" autocomplete="tel"></label>
+  <div class="form-step" data-step="2" hidden>
+    <label>What is happening?</label>
+    <div class="choice-grid" data-choice-group="service_requested">
+      <button type="button" data-value="Roof leak">Roof leak</button>
+      <button type="button" data-value="Storm damage">Storm damage</button>
+      <button type="button" data-value="Missing shingles">Missing shingles</button>
+      <button type="button" data-value="Roof replacement">Roof replacement</button>
+      <button type="button" data-value="Roof inspection">Roof inspection</button>
+      <button type="button" data-value="Commercial roof issue">Commercial roof issue</button>
+      <button type="button" data-value="Not sure">Not sure</button>
+    </div>
+    <div class="form-actions">
+      <button class="btn secondary form-prev" type="button">Back</button>
+      <button class="btn primary form-next" type="button">Continue</button>
+    </div>
   </div>
-  <label>Email<input name="email" type="email" autocomplete="email"></label>
-  <label>Notes<textarea name="notes" rows="3" placeholder="Leak location, roof age, visible damage, or timing"></textarea></label>
-  <p class="consent">By submitting this form, you agree to be contacted about your roofing request by phone, text, or email. Consent is not a condition of purchase.</p>
-  <button class="btn primary" type="submit">Get My Roofing Estimate</button>
+  <div class="form-step" data-step="3" hidden>
+    <label>Name
+      <input name="name" autocomplete="name" placeholder="Your name" required>
+    </label>
+    <label>Phone
+      <input name="phone" autocomplete="tel" inputmode="tel" placeholder="Best callback number" required>
+    </label>
+    <label>Email <span class="optional">optional</span>
+      <input name="email" type="email" autocomplete="email" placeholder="you@example.com">
+    </label>
+    <label class="notes-toggle">Anything urgent? <span class="optional">optional</span>
+      <textarea name="notes" rows="2" placeholder="Active leak, roof age, visible damage, or timing"></textarea>
+    </label>
+    <p class="consent">By submitting this form, you agree to be contacted about your roofing request by phone, text, or email. Consent is not a condition of purchase.</p>
+    <div class="form-actions">
+      <button class="btn secondary form-prev" type="button">Back</button>
+      <button class="btn primary" type="submit">Get My Roofing Estimate</button>
+    </div>
+  </div>
 </form><div><p class="eyebrow">Real talk for NJ homeowners</p><h2>Every Township Runs Its Own Show</h2><p class="query-intro"><strong>Heads up</strong>: this page is general guidance, not the actual building code. Permit rules in Cape May County look different from Bergen County, which looks different from Essex. Always confirm with your local building department before signing anything.</p><p>That said, here's what's true across most of New Jersey: full replacements involve a permit and at least one inspection. Repair-only work often doesn't. And whether you're on the shore (salt air, wind-driven rain) or inland (freeze-thaw, ice dams) changes what the estimate should actually include. Coastal Cape May and inland Williamstown are basically two different roofing climates.</p><div class="mini-list"><a href="/roof-repair/">Roof repair</a><a href="/roof-replacement/">Roof replacement</a><a href="/storm-damage-roof-repair/">Storm damage</a></div></div></section>
   <section class="section two-col"><article><p class="eyebrow">Repair vs replacement</p><h2>Scope Drives The Permit</h2><p>Small stuff - a few shingles, a flashing detail, one vent boot - usually falls under maintenance and may not need a permit. Full re-roofs, tear-offs, and structural repairs almost always do. When you're not sure where your project lands, ask the contractor to confirm with the local building department before quoting. If they balk at that, find a different contractor.</p><a class="btn secondary" href="/roof-repair-vs-replacement/">Repair vs replacement guide</a></article><article><p class="eyebrow">Township review</p><h2>When The Inspector Actually Shows Up</h2><p>A lot of NJ towns inspect after tear-off but before the new roof is closed in - so the inspector can actually see the decking and underlayment. Some inspect at completion. Either way, the contractor should coordinate the timing so the work isn't buried before sign-off. If your roofer can't tell you when the inspection is happening, that's a problem.</p></article></section>
   <section class="section band"><div class="section-head"><p class="eyebrow">If you're on the shore</p><h2>Coastal NJ Roof Concerns</h2></div><div class="card-grid">

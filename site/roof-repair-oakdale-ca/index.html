@@ -135,45 +135,58 @@
   <span>Fast estimate requests</span>
   <span>Homeowner-friendly process</span>
 </section>
-  <section id="quote-form" class="section split"><form class="quote-form" data-quote-form>
+  <section id="quote-form" class="section split"><form class="quote-form quote-form-stepped" data-quote-form>
   <div class="form-head">
     <p class="eyebrow">Free roofing estimate request</p>
-    <h2>Tell us what is happening with your roof.</h2>
-    <p>No obligation. Your property location helps confirm service availability.</p>
+    <h2>Check roofing help in your area.</h2>
+    <p>Start with your ZIP. We'll use the next step to understand the roof issue.</p>
   </div>
-  <label>What do you need help with?
-    <select name="service_requested">
-      <option>Roof leak</option>
-      <option>Storm damage</option>
-      <option>Missing shingles</option>
-      <option>Roof replacement</option>
-      <option>Roof inspection</option>
-      <option>Commercial roof issue</option>
-      <option>Maintenance or restoration</option>
-      <option>Custom roof planning</option>
-      <option>Not sure</option>
-    </select>
-  </label>
-  <label>How soon do you need help?
-    <select name="urgency">
-      <option>Emergency / ASAP</option>
-      <option>This week</option>
-      <option>Within 2 weeks</option>
-      <option>Just comparing quotes</option>
-    </select>
-  </label>
-  <div class="field-grid">
-    <label>City<input name="city" value="Oakdale"></label>
-    <label>ZIP<input name="zip" inputmode="numeric"></label>
+  <div class="step-dots" aria-hidden="true"><span class="is-active"></span><span></span><span></span></div>
+  <input type="hidden" name="city" value="Oakdale">
+  <input type="hidden" name="service_requested" value="Not sure">
+  <input type="hidden" name="urgency" value="Fast callback requested">
+  <div class="form-step is-active" data-step="1">
+    <label>ZIP code
+      <input name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="Enter ZIP" required>
+    </label>
+    <p class="form-nudge">Serving Oakdale homeowners.</p>
+    <button class="btn primary form-next" type="button">Check Availability</button>
   </div>
-  <div class="field-grid">
-    <label>Name<input name="name" autocomplete="name"></label>
-    <label>Phone<input name="phone" autocomplete="tel"></label>
+  <div class="form-step" data-step="2" hidden>
+    <label>What is happening?</label>
+    <div class="choice-grid" data-choice-group="service_requested">
+      <button type="button" data-value="Roof leak">Roof leak</button>
+      <button type="button" data-value="Storm damage">Storm damage</button>
+      <button type="button" data-value="Missing shingles">Missing shingles</button>
+      <button type="button" data-value="Roof replacement">Roof replacement</button>
+      <button type="button" data-value="Roof inspection">Roof inspection</button>
+      <button type="button" data-value="Commercial roof issue">Commercial roof issue</button>
+      <button type="button" data-value="Not sure">Not sure</button>
+    </div>
+    <div class="form-actions">
+      <button class="btn secondary form-prev" type="button">Back</button>
+      <button class="btn primary form-next" type="button">Continue</button>
+    </div>
   </div>
-  <label>Email<input name="email" type="email" autocomplete="email"></label>
-  <label>Notes<textarea name="notes" rows="3" placeholder="Leak location, roof age, visible damage, or timing"></textarea></label>
-  <p class="consent">By submitting this form, you agree to be contacted about your roofing request by phone, text, or email. Consent is not a condition of purchase.</p>
-  <button class="btn primary" type="submit">Get My Roofing Estimate</button>
+  <div class="form-step" data-step="3" hidden>
+    <label>Name
+      <input name="name" autocomplete="name" placeholder="Your name" required>
+    </label>
+    <label>Phone
+      <input name="phone" autocomplete="tel" inputmode="tel" placeholder="Best callback number" required>
+    </label>
+    <label>Email <span class="optional">optional</span>
+      <input name="email" type="email" autocomplete="email" placeholder="you@example.com">
+    </label>
+    <label class="notes-toggle">Anything urgent? <span class="optional">optional</span>
+      <textarea name="notes" rows="2" placeholder="Active leak, roof age, visible damage, or timing"></textarea>
+    </label>
+    <p class="consent">By submitting this form, you agree to be contacted about your roofing request by phone, text, or email. Consent is not a condition of purchase.</p>
+    <div class="form-actions">
+      <button class="btn secondary form-prev" type="button">Back</button>
+      <button class="btn primary" type="submit">Get My Roofing Estimate</button>
+    </div>
+  </div>
 </form><div><p class="eyebrow">Stanislaus County</p><h2>Local Help for Oakdale Homeowners</h2><p class="query-intro"><strong>Real talk for Oakdale</strong>: if you've owned a place around here long enough to see a wet winter rotate back through after a dry stretch, you already know which roofs handle it and which ones quietly fail - this page is for the moment yours starts showing signs.</p><p>Leaks, storm damage, missing shingles, an aging roof - any of it can go from "I'll deal with it next month" to "the ceiling is dripping right now" faster than you'd expect. In Oakdale, the specific exposure - heat exposure and seasonal rain - puts certain parts of the roof under more stress than others. Catching it early genuinely saves money.</p><p>Whether you noticed water stains after the last big rain, shingles missing after a wind event, or you're just looking at a roof that's been on this house since the previous owners - getting it checked beats waiting for the next surprise.</p><div class="location-card" itemscope itemtype="https://schema.org/RoofingContractor"><h3 itemprop="name">Roofing Champs Oakdale</h3><p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"><span itemprop="streetAddress">219 S 2nd Ave</span>, <span itemprop="addressLocality">Oakdale</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">95361</span></p><a itemprop="telephone" href="tel:+12098442500">(209) 844-2500</a><meta itemprop="url" content="https://www.roofingchamps.net/roof-repair-oakdale-ca/"><meta itemprop="priceRange" content="$$"><div itemprop="areaServed" itemscope itemtype="https://schema.org/City"><meta itemprop="name" content="Oakdale"><div itemprop="containedInPlace" itemscope itemtype="https://schema.org/AdministrativeArea"><meta itemprop="name" content="Stanislaus County, California"></div></div></div></div></section>
   <section class="section decision-fit">
   <div class="section-head"><p class="eyebrow">Decision fit mapping</p><h2>Which Roofing Option Fits the Problem?</h2></div>

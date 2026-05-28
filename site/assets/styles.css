@@ -386,6 +386,93 @@ p {
   font-size: clamp(1.35rem, 2vw, 1.8rem);
 }
 
+.quote-form-stepped .form-head p:last-child {
+  margin-bottom: 0;
+}
+
+.step-dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.step-dots span {
+  width: 38px;
+  height: 5px;
+  border-radius: 999px;
+  background: #ccd8e1;
+}
+
+.step-dots span.is-active,
+.step-dots span.is-complete {
+  background: var(--gold);
+}
+
+.form-step {
+  display: grid;
+  gap: 14px;
+}
+
+.form-step[hidden] {
+  display: none;
+}
+
+.form-nudge {
+  padding: 10px 12px;
+  border: 1px solid #d7e7dc;
+  border-radius: 6px;
+  color: #185c43;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: #f2fbf6;
+}
+
+.choice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.choice-grid button {
+  min-height: 54px;
+  padding: 10px 12px;
+  border: 2px solid var(--line);
+  border-radius: 7px;
+  color: var(--navy);
+  font: inherit;
+  font-weight: 800;
+  text-align: left;
+  background: var(--white);
+  cursor: pointer;
+}
+
+.choice-grid button:hover,
+.choice-grid button.is-selected {
+  border-color: var(--gold);
+  background: #fff8df;
+}
+
+.form-actions {
+  display: grid;
+  grid-template-columns: minmax(110px, 0.42fr) minmax(0, 1fr);
+  gap: 10px;
+}
+
+.optional {
+  color: #6b7882;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.form-message {
+  padding: 10px 12px;
+  border: 1px solid #d7e7dc;
+  border-radius: 6px;
+  color: #185c43;
+  font-weight: 800;
+  background: #f2fbf6;
+}
+
 label {
   display: grid;
   gap: 6px;
@@ -935,6 +1022,8 @@ details p {
   .hero-actions,
   .trust-list,
   .field-grid,
+  .choice-grid,
+  .form-actions,
   .trust-bar,
   .card-grid,
   .decision-grid {
