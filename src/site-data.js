@@ -287,7 +287,7 @@ const paaPages = [
     slug: "how-much-does-a-new-roof-cost",
     question: "How much does a new roof cost?",
     title: "How Much Does a New Roof Cost? | Roofing Champs",
-    h1: "How Much Does a New Roof Cost? Complete Guide",
+    h1: "Real Pricing for a New Roof: Complete Guide",
     answer:
       "A new roof often costs $8,000-$18,000 for a typical home, but pricing changes by roof size, slope, material, decking condition, tear-off needs, and local labor. Roofing Champs helps homeowners compare estimates before choosing a contractor.",
     intro:
@@ -312,7 +312,7 @@ const paaPages = [
     slug: "signs-you-need-a-new-roof",
     question: "What are the signs you need a new roof?",
     title: "What Are the Signs You Need a New Roof? | Roofing Champs",
-    h1: "What Are the Signs You Need a New Roof? Complete Guide",
+    h1: "Warning Signs Your Roof Is Done: Complete Guide",
     answer:
       "Signs you may need a new roof include repeated leaks, missing or curling shingles, granules in gutters, soft decking, daylight through roof boards, sagging areas, and an asphalt roof approaching 20 years old.",
     intro:
@@ -337,7 +337,7 @@ const paaPages = [
     slug: "does-homeowners-insurance-cover-roof-replacement",
     question: "Does homeowners insurance cover roof replacement?",
     title: "Does Homeowners Insurance Cover Roof Replacement? | Roofing Champs",
-    h1: "Does Homeowners Insurance Cover Roof Replacement? Complete Guide",
+    h1: "Insurance Coverage for a New Roof: Complete Guide",
     answer:
       "Homeowners insurance may cover roof replacement when damage comes from a covered event such as wind, hail, fallen trees, or sudden storm damage. It usually does not cover normal aging, poor maintenance, or ordinary wear.",
     intro:
@@ -362,7 +362,7 @@ const paaPages = [
     slug: "how-to-file-insurance-claim-for-roof-damage",
     question: "How do you file an insurance claim for roof damage?",
     title: "How Do You File an Insurance Claim for Roof Damage? | Roofing Champs",
-    h1: "How Do You File an Insurance Claim for Roof Damage? Complete Guide",
+    h1: "Filing a Storm-Damage Claim: Step-by-Step Guide",
     answer:
       "To file an insurance claim for roof damage, document the damage, protect the home from further water entry, contact your insurer, request an adjuster inspection, and get a contractor estimate that separates storm damage from maintenance issues.",
     intro:
@@ -387,7 +387,7 @@ const paaPages = [
     slug: "how-long-does-roof-installation-take",
     question: "How long does roof installation take?",
     title: "How Long Does Roof Installation Take? | Roofing Champs",
-    h1: "How Long Does Roof Installation Take? Complete Guide",
+    h1: "Real Timelines for a Reroof Project: Complete Guide",
     answer:
       "Most residential roof installations take 1-3 days, weather permitting. Larger homes, steep roofs, multiple layers, decking repairs, specialty materials, or complex flashing can extend the project to 4-5 days or more.",
     intro:
@@ -412,7 +412,7 @@ const paaPages = [
     slug: "best-time-to-replace-a-roof",
     question: "What is the best time to replace a roof?",
     title: "What Is the Best Time to Replace a Roof? | Roofing Champs",
-    h1: "What Is the Best Time to Replace a Roof? Complete Guide",
+    h1: "Choosing the Right Season for a Reroof: Complete Guide",
     answer:
       "The best time to replace a roof is usually during mild, dry weather when materials can seal correctly and crews can work safely. Spring, summer, and early fall are common, but urgent leaks should not wait for a perfect season.",
     intro:
@@ -437,7 +437,7 @@ const paaPages = [
     slug: "can-you-roof-over-existing-shingles",
     question: "Can you roof over existing shingles?",
     title: "Can You Roof Over Existing Shingles? | Roofing Champs",
-    h1: "Can You Roof Over Existing Shingles? Complete Guide",
+    h1: "Overlay vs Tear-Off: Complete Comparison",
     answer:
       "You can sometimes roof over one existing shingle layer if local code allows it and the roof deck is sound, but a full tear-off is usually better because it exposes hidden decking, flashing, and ventilation problems.",
     intro:
@@ -462,7 +462,7 @@ const paaPages = [
     slug: "how-long-does-a-roof-last",
     question: "How long does a roof last?",
     title: "How Long Does a Roof Last? | Roofing Champs",
-    h1: "How Long Does a Roof Last? Complete Guide",
+    h1: "Real Lifespans by Roofing Material: Complete Guide",
     answer:
       "An asphalt shingle roof often lasts 15-25 years, depending on installation quality, ventilation, weather exposure, maintenance, and storm damage. Tile, metal, and slate can last longer when installed and maintained correctly.",
     intro:
@@ -487,7 +487,7 @@ const paaPages = [
     slug: "best-roofing-material-for-california-heat",
     question: "What is the best roofing material for California heat?",
     title: "What Is the Best Roofing Material for California Heat? | Roofing Champs",
-    h1: "What Is the Best Roofing Material for California Heat? Complete Guide",
+    h1: "Choosing Materials Built for California Sun: Complete Guide",
     answer:
       "Good roofing materials for California heat include cool-rated asphalt shingles, tile, metal, and properly designed low-slope systems. The best choice depends on roof pitch, budget, weight limits, ventilation, and local energy requirements.",
     intro:
@@ -512,7 +512,7 @@ const paaPages = [
     slug: "best-roofing-material-for-new-jersey-weather",
     question: "What is the best roofing material for New Jersey weather?",
     title: "What Is the Best Roofing Material for New Jersey Weather? | Roofing Champs",
-    h1: "What Is the Best Roofing Material for New Jersey Weather? Complete Guide",
+    h1: "Materials That Hold Up to New Jersey Storms: Complete Guide",
     answer:
       "Architectural asphalt shingles are a common fit for New Jersey weather because they balance cost, wind resistance, and durability. Coastal, wooded, or high-exposure homes may need upgraded shingles, ventilation, flashing, and ice-barrier details.",
     intro:
@@ -537,7 +537,7 @@ const paaPages = [
     slug: "how-much-does-it-cost-to-repair-a-roof-leak",
     question: "How much does it cost to repair a roof leak?",
     title: "How Much Does It Cost To Repair A Roof Leak? | Roofing Champs",
-    h1: "How Much Does It Cost To Repair A Roof Leak? Complete Guide",
+    h1: "Real Pricing for Patching a Leak: Complete Guide",
     answer:
       "Roof leak repair typically costs $400-$1,500 for most homes, depending on leak source, roof material, accessibility, and whether decking damage is involved. Localized flashing or vent boot repairs sit at the low end; chimney flashing or structural decking repairs run higher. Roofing Champs helps California and New Jersey homeowners compare written leak repair estimates.",
     intro:
@@ -612,7 +612,7 @@ const paaPages = [
     slug: "what-does-a-roof-inspection-cost",
     question: "What does a roof inspection cost?",
     title: "What Does A Roof Inspection Cost? | Roofing Champs",
-    h1: "What Does A Roof Inspection Cost? Complete Guide",
+    h1: "Real Pricing for Pre-Sale and Post-Storm Inspections: Complete Guide",
     answer:
       "A roof inspection typically costs $150-$500 for most homes, depending on roof size and complexity, whether drone or thermal imaging is included, and whether the inspection is stand-alone or bundled with a sale, insurance claim, or repair. Some contractors waive the fee if you proceed with work. Roofing Champs helps California and New Jersey homeowners request written roof inspections.",
     intro:
@@ -637,7 +637,7 @@ const paaPages = [
     slug: "is-metal-roofing-worth-it",
     question: "Is metal roofing worth it?",
     title: "Is Metal Roofing Worth It? | Roofing Champs",
-    h1: "Is Metal Roofing Worth It? Complete Guide",
+    h1: "When Standing-Seam Pays Off: Complete Guide",
     answer:
       "Metal roofing is often worth the higher upfront cost when you plan to stay in the home for 20+ years - service life runs 40-60 years versus 20-30 for asphalt, maintenance is generally lower, and resale appeal is strong in many markets. Roofing Champs helps California and New Jersey homeowners compare metal against asphalt with real numbers, not marketing.",
     intro:
@@ -662,7 +662,7 @@ const paaPages = [
     slug: "how-loud-is-roof-installation",
     question: "How loud is roof installation?",
     title: "How Loud Is Roof Installation? | Roofing Champs",
-    h1: "How Loud Is Roof Installation? Complete Guide",
+    h1: "Expected Noise Levels During a Reroof: Complete Guide",
     answer:
       "Roof installation typically runs 85-100 decibels at the source - comparable to heavy traffic or a power lawnmower. Noise is most disruptive during tear-off (4-8 hours) and reduces once shingles start installing. Roofing Champs helps California and New Jersey homeowners plan work-from-home schedules, childcare, and pet logistics around installation noise.",
     intro:
@@ -687,7 +687,7 @@ const paaPages = [
     slug: "what-is-a-roof-warranty",
     question: "What is a roof warranty?",
     title: "What Is A Roof Warranty? | Roofing Champs",
-    h1: "What Is A Roof Warranty? Complete Guide",
+    h1: "Manufacturer vs Workmanship Coverage: Complete Guide",
     answer:
       "A roof warranty has two parts: the manufacturer's material warranty (covering shingle defects, typically 25-50 years and often prorated) and the contractor's workmanship warranty (covering installation errors, typically 2-10 years). Roofing Champs helps California and New Jersey homeowners compare warranty terms across written estimates before signing anything.",
     intro:
@@ -762,7 +762,7 @@ const paaPages = [
     slug: "do-new-roofs-add-home-value",
     question: "Do new roofs add home value?",
     title: "Do New Roofs Add Home Value? | Roofing Champs",
-    h1: "Do New Roofs Add Home Value? Complete Guide",
+    h1: "Resale Math When the Roof Is Aging: Complete Guide",
     answer:
       "A new roof typically returns 60-70% of its cost in increased home value at resale, plus removes a major buyer objection that often kills sales or triggers price reductions. The bigger win is faster sale time and stronger negotiating position. Roofing Champs helps California and New Jersey homeowners weigh replacement timing against selling plans.",
     intro:
@@ -787,7 +787,7 @@ const paaPages = [
     slug: "roof-repair-vs-restoration",
     question: "What's the difference between roof repair and roof restoration?",
     title: "Roof Repair vs Restoration: What's The Difference? | Roofing Champs",
-    h1: "Roof Repair vs Restoration: Complete Guide",
+    h1: "Patching vs Coating: Complete Comparison",
     answer:
       "Roof repair fixes specific damaged components - shingles, flashing, vent boots, or membrane sections. Roof restoration is a broader process that cleans, repairs, reinforces, and recoats - typically applied to low-slope commercial or aging tile roofs to extend service life without full replacement. Roofing Champs helps California and New Jersey homeowners decide which path fits.",
     intro:
@@ -812,7 +812,7 @@ const paaPages = [
     slug: "can-you-patch-a-flat-roof",
     question: "Can you patch a flat roof?",
     title: "Can You Patch A Flat Roof? | Roofing Champs",
-    h1: "Can You Patch A Flat Roof? Complete Guide",
+    h1: "When Low-Slope Patching Works (And Doesn't): Complete Guide",
     answer:
       "Yes, flat roofs can be patched when the damage is contained to a small membrane area, the surrounding membrane is sound, and drainage isn't compromised. Patching is short-term protection on widely failing membranes. Roofing Champs helps California and New Jersey homeowners decide between targeted patches and full membrane repair or replacement.",
     intro:
@@ -862,7 +862,7 @@ const paaPages = [
     slug: "what-is-gaf-master-elite",
     question: "What is GAF Master Elite certification?",
     title: "What Is GAF Master Elite Certification? | Roofing Champs",
-    h1: "What Is GAF Master Elite Certification? Complete Guide",
+    h1: "Manufacturer Certifications Explained: Complete Guide",
     answer:
       "GAF Master Elite is a manufacturer certification awarded to roughly 2-3% of GAF-installing contractors, requiring proof of license, insurance, training, and ongoing performance reviews. It signals additional manufacturer warranty eligibility. Roofing Champs operates as a homeowner-first routing service and connects you to contractors who carry relevant manufacturer certifications when applicable.",
     intro:
@@ -887,7 +887,7 @@ const paaPages = [
     slug: "should-i-tip-my-roofer",
     question: "Should I tip my roofer?",
     title: "Should I Tip My Roofer? | Roofing Champs",
-    h1: "Should I Tip My Roofer? Complete Guide",
+    h1: "Tipping and Appreciating Crews: Complete Guide",
     answer:
       "Tipping roofers is not required or expected, but many homeowners offer $10-$40 per crew member for jobs that went well, especially in hot weather or after long projects. Lunch, cold drinks, or a positive online review are also common appreciation gestures. Roofing Champs helps homeowners understand customary tipping in California and New Jersey roofing markets.",
     intro:
@@ -912,7 +912,7 @@ const paaPages = [
     slug: "how-long-after-roof-leak-mold-grow",
     question: "How long after a roof leak can mold grow?",
     title: "How Long After A Roof Leak Can Mold Grow? | Roofing Champs",
-    h1: "How Long After A Roof Leak Can Mold Grow? Complete Guide",
+    h1: "Mold Risk Timeline After Water Intrusion: Complete Guide",
     answer:
       "Mold can begin growing 24-48 hours after water reaches drywall, insulation, or wood framing under the right temperature and humidity conditions. Visible mold often appears within 7-14 days. Roofing Champs helps California and New Jersey homeowners schedule fast leak repair and mitigation tarping to limit mold risk.",
     intro:
@@ -937,7 +937,7 @@ const paaPages = [
     slug: "do-i-need-to-be-home-during-roof-replacement",
     question: "Do I need to be home during roof replacement?",
     title: "Do I Need To Be Home During Roof Replacement? | Roofing Champs",
-    h1: "Do I Need To Be Home During Roof Replacement? Complete Guide",
+    h1: "Being Present During the Project: Complete Guide",
     answer:
       "Most homeowners don't need to stay home during roof replacement - the crew works outside, doesn't need interior access for most projects, and stays in contact through one designated point person. Pets, kids, and work-from-home setups may want to plan around the noise. Roofing Champs helps California and New Jersey homeowners scope the right schedule.",
     intro:
@@ -962,7 +962,7 @@ const paaPages = [
     slug: "what-time-of-year-do-roof-leaks-happen-most",
     question: "What time of year do roof leaks happen most?",
     title: "What Time Of Year Do Roof Leaks Happen Most? | Roofing Champs",
-    h1: "What Time Of Year Do Roof Leaks Happen Most? Complete Guide",
+    h1: "Seasonal Leak Patterns and Pre-Season Prep: Complete Guide",
     answer:
       "Roof leaks peak during the first heavy rain after a long dry stretch, during ice-thaw cycles in winter, and during major wind or storm events. In California, that's typically the first atmospheric river of the season; in New Jersey, late fall storms and February freeze-thaw. Roofing Champs helps homeowners schedule pre-season inspections.",
     intro:
