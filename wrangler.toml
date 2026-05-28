@@ -1,0 +1,10 @@
+name = "roofingchamps"
+compatibility_date = "2026-05-21"
+compatibility_flags = ["nodejs_compat"]
+
+# Static-only Workers deployment.
+# `npm run build` regenerates the site/ directory; wrangler uploads it as
+# Worker static assets. No custom Worker script is needed for a static site.
+[assets]
+directory = "./site"
+not_found_handling = "404-page"
