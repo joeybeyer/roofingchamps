@@ -1,13 +1,942 @@
 [
   {
+    "slug": "home",
+    "title": "Roofing Champs homepage",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. A Roofing Champs employee in a navy polo with the real Roofing Champs logo on the chest stands beside a homeowner and points toward the estimate form area off frame. A navy service truck with matching real Roofing Champs logo branding is visible in the driveway. The employee looks left toward where page copy and CTA will appear. Trustworthy, local home-service feel.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\home.webp"
+  },
+  {
+    "slug": "roof-repair",
+    "title": "Roof Repair",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Roof Repair. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Roof leaks, Missing shingles, Damaged flashing. People should look toward the left side of the frame where the CTA will be. Variant 1, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair.webp"
+  },
+  {
+    "slug": "emergency-roof-repair",
+    "title": "Emergency Roof Repair",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Emergency Roof Repair. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Active leaks, Storm openings, Ceiling water. People should look toward the left side of the frame where the CTA will be. Variant 2, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\emergency-roof-repair.webp"
+  },
+  {
+    "slug": "roof-leak-repair",
+    "title": "Roof Leak Repair",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Roof Leak Repair. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Water stains, Attic moisture, Skylight leaks. People should look toward the left side of the frame where the CTA will be. Variant 3, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-leak-repair.webp"
+  },
+  {
+    "slug": "roof-replacement",
+    "title": "Roof Replacement",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Roof Replacement. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Old roof materials, Repeated leaks, Widespread shingle loss. People should look toward the left side of the frame where the CTA will be. Variant 4, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement.webp"
+  },
+  {
+    "slug": "storm-damage-roof-repair",
+    "title": "Storm Damage Roof Repair",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Storm Damage Roof Repair. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Wind damage, Hail damage, Debris impact. People should look toward the left side of the frame where the CTA will be. Variant 5, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\storm-damage-roof-repair.webp"
+  },
+  {
+    "slug": "roof-inspection",
+    "title": "Roof Inspection",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Roof Inspection. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Pre-sale checks, Storm checks, Old roof review. People should look toward the left side of the frame where the CTA will be. Variant 6, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-inspection.webp"
+  },
+  {
+    "slug": "free-roof-inspection",
+    "title": "Free Roof Inspection",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Free Roof Inspection. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Storm checks, Leak concerns, Age review. People should look toward the left side of the frame where the CTA will be. Variant 7, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\free-roof-inspection.webp"
+  },
+  {
+    "slug": "roof-damage-repair",
+    "title": "Roof Damage Repair",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Roof Damage Repair. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Wind damage, Hail marks, Fallen debris. People should look toward the left side of the frame where the CTA will be. Variant 8, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-damage-repair.webp"
+  },
+  {
+    "slug": "commercial-roofing-services",
+    "title": "Commercial Roofing Services",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Commercial Roofing Services. Scene: a low-slope commercial roof and building exterior with HVAC curbs, roof drains, and a branded service truck at ground level. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Flat roof leaks, Drainage issues, Preventive maintenance. People should look toward the left side of the frame where the CTA will be. Variant 9, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\commercial-roofing-services.webp"
+  },
+  {
+    "slug": "commercial-roof-infrared",
+    "title": "Commercial Roof Infrared",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Commercial Roof Infrared. Scene: a low-slope commercial roof and building exterior with HVAC curbs, roof drains, and a branded service truck at ground level. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Hidden moisture, Wet insulation, Flat roof leaks. People should look toward the left side of the frame where the CTA will be. Variant 10, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\commercial-roof-infrared.webp"
+  },
+  {
+    "slug": "commercial-roof-maintenance",
+    "title": "Commercial Roof Maintenance",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Commercial Roof Maintenance. Scene: a low-slope commercial roof and building exterior with HVAC curbs, roof drains, and a branded service truck at ground level. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Preventive checks, Drain cleaning, Membrane repairs. People should look toward the left side of the frame where the CTA will be. Variant 11, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\commercial-roof-maintenance.webp"
+  },
+  {
+    "slug": "commercial-roof-repair",
+    "title": "Commercial Roof Repair",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Commercial Roof Repair. Scene: a low-slope commercial roof and building exterior with HVAC curbs, roof drains, and a branded service truck at ground level. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Active leaks, Ponding water, Membrane punctures. People should look toward the left side of the frame where the CTA will be. Variant 12, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\commercial-roof-repair.webp"
+  },
+  {
+    "slug": "commercial-roof-restoration",
+    "title": "Commercial Roof Restoration",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Commercial Roof Restoration. Scene: a low-slope commercial roof and building exterior with HVAC curbs, roof drains, and a branded service truck at ground level. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Aging membranes, Coating options, Seam wear. People should look toward the left side of the frame where the CTA will be. Variant 13, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\commercial-roof-restoration.webp"
+  },
+  {
+    "slug": "commercial-roof-replacement",
+    "title": "Commercial Roof Replacement",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Commercial Roof Replacement. Scene: a low-slope commercial roof and building exterior with HVAC curbs, roof drains, and a branded service truck at ground level. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Old roof systems, Recurring leaks, Wet insulation. People should look toward the left side of the frame where the CTA will be. Variant 14, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\commercial-roof-replacement.webp"
+  },
+  {
+    "slug": "residential-roofing-services",
+    "title": "Residential Roofing Services",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Residential Roofing Services. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Home roof leaks, Storm damage, Inspection requests. People should look toward the left side of the frame where the CTA will be. Variant 15, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\residential-roofing-services.webp"
+  },
+  {
+    "slug": "residential-roof-repair",
+    "title": "Residential Roof Repair",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Residential Roof Repair. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Home roof leaks, Missing shingles, Damaged flashing. People should look toward the left side of the frame where the CTA will be. Variant 16, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\residential-roof-repair.webp"
+  },
+  {
+    "slug": "residential-roof-replacement",
+    "title": "Residential Roof Replacement",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Residential Roof Replacement. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Old shingles, Repeated leaks, Storm damage. People should look toward the left side of the frame where the CTA will be. Variant 17, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\residential-roof-replacement.webp"
+  },
+  {
+    "slug": "shingle-roof-repair",
+    "title": "Shingle Roof Repair",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Shingle Roof Repair. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Missing shingles, Cracked shingles, Granule loss. People should look toward the left side of the frame where the CTA will be. Variant 18, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\shingle-roof-repair.webp"
+  },
+  {
+    "slug": "flat-roof-repair",
+    "title": "Flat Roof Repair",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Flat Roof Repair. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Ponding water, Drainage issues, Membrane wear. People should look toward the left side of the frame where the CTA will be. Variant 19, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\flat-roof-repair.webp"
+  },
+  {
+    "slug": "flat-roof-repair-install",
+    "title": "Flat Roof Repair & Install",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Flat Roof Repair & Install. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Ponding water, Membrane installation, Drainage design. People should look toward the left side of the frame where the CTA will be. Variant 20, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\flat-roof-repair-install.webp"
+  },
+  {
+    "slug": "metal-roofing",
+    "title": "Metal Roofing",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Metal Roofing. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Panel selection, Fastener systems, Flashing details. People should look toward the left side of the frame where the CTA will be. Variant 21, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\metal-roofing.webp"
+  },
+  {
+    "slug": "custom-design-roofs",
+    "title": "Custom Design Roofs",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Unique service page image for Custom Design Roofs. Scene: a residential home exterior with visible rooflines and a branded service truck in the driveway. Show one or two Roofing Champs employees wearing navy uniforms with the real Roofing Champs logo on the chest. Include a navy truck or van with matching real Roofing Champs logo branding. Show the service context through props: Complex rooflines, Drainage planning, Material selection. People should look toward the left side of the frame where the CTA will be. Variant 22, different angle and composition from other pages.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\custom-design-roofs.webp"
+  },
+  {
+    "slug": "roof-repair-cape-may-nj",
+    "title": "Cape May NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Cape May, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 1.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-cape-may-nj.webp"
+  },
+  {
+    "slug": "roof-repair-elizabeth-nj",
+    "title": "Elizabeth NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Elizabeth, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 2.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-elizabeth-nj.webp"
+  },
+  {
+    "slug": "roof-repair-newfield-nj",
+    "title": "Newfield NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Newfield, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 3.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-newfield-nj.webp"
+  },
+  {
+    "slug": "roof-repair-north-cape-may-nj",
+    "title": "North Cape May NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for North Cape May, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 4.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-north-cape-may-nj.webp"
+  },
+  {
+    "slug": "roof-repair-sewell-nj",
+    "title": "Sewell NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Sewell, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 5.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-sewell-nj.webp"
+  },
+  {
+    "slug": "roof-repair-stanhope-nj",
+    "title": "Stanhope NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Stanhope, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 6.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-stanhope-nj.webp"
+  },
+  {
+    "slug": "roof-repair-turnersville-nj",
+    "title": "Turnersville NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Turnersville, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 7.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-turnersville-nj.webp"
+  },
+  {
+    "slug": "roof-repair-villas-nj",
+    "title": "Villas NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Villas, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 8.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-villas-nj.webp"
+  },
+  {
+    "slug": "roof-repair-vineland-nj",
+    "title": "Vineland NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Vineland, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 9.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-vineland-nj.webp"
+  },
+  {
+    "slug": "roof-repair-west-caldwell-nj",
+    "title": "West Caldwell NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for West Caldwell, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 10.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-west-caldwell-nj.webp"
+  },
+  {
+    "slug": "roof-repair-williamstown-nj",
+    "title": "Williamstown NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Williamstown, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 11.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-williamstown-nj.webp"
+  },
+  {
+    "slug": "roof-repair-woodbury-heights-nj",
+    "title": "Woodbury Heights NJ",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Woodbury Heights, NJ. Scene: a New Jersey residential street with mature trees, pitched asphalt roofs, and a clean branded service truck parked near the curb. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 12.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-woodbury-heights-nj.webp"
+  },
+  {
+    "slug": "roof-repair-culver-city-ca",
+    "title": "Culver City CA",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Culver City, CA. Scene: a warm California residential street with dry light, tile and shingle roofs, and a clean branded service truck parked in the driveway. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 13.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-culver-city-ca.webp"
+  },
+  {
+    "slug": "roof-repair-gilroy-ca",
+    "title": "Gilroy CA",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Gilroy, CA. Scene: a warm California residential street with dry light, tile and shingle roofs, and a clean branded service truck parked in the driveway. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 14.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-gilroy-ca.webp"
+  },
+  {
+    "slug": "roof-repair-oakdale-ca",
+    "title": "Oakdale CA",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Oakdale, CA. Scene: a warm California residential street with dry light, tile and shingle roofs, and a clean branded service truck parked in the driveway. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 15.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-oakdale-ca.webp"
+  },
+  {
+    "slug": "roof-repair-san-jose-ca",
+    "title": "San Jose CA",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for San Jose, CA. Scene: a warm California residential street with dry light, tile and shingle roofs, and a clean branded service truck parked in the driveway. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 16.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-san-jose-ca.webp"
+  },
+  {
+    "slug": "roof-repair-san-pedro-ca",
+    "title": "San Pedro CA",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for San Pedro, CA. Scene: a warm California residential street with dry light, tile and shingle roofs, and a clean branded service truck parked in the driveway. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 17.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-san-pedro-ca.webp"
+  },
+  {
+    "slug": "roof-repair-torrance-ca",
+    "title": "Torrance CA",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Torrance, CA. Scene: a warm California residential street with dry light, tile and shingle roofs, and a clean branded service truck parked in the driveway. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 18.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-torrance-ca.webp"
+  },
+  {
+    "slug": "roof-repair-turlock-ca",
+    "title": "Turlock CA",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Turlock, CA. Scene: a warm California residential street with dry light, tile and shingle roofs, and a clean branded service truck parked in the driveway. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 19.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-turlock-ca.webp"
+  },
+  {
+    "slug": "roof-repair-van-nuys-ca",
+    "title": "Van Nuys CA",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Van Nuys, CA. Scene: a warm California residential street with dry light, tile and shingle roofs, and a clean branded service truck parked in the driveway. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 20.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-van-nuys-ca.webp"
+  },
+  {
+    "slug": "roof-repair-winnetka-ca",
+    "title": "Winnetka CA",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Local roofing service hero for Winnetka, CA. Scene: a warm California residential street with dry light, tile and shingle roofs, and a clean branded service truck parked in the driveway. Show a Roofing Champs employee in a navy uniform with the real Roofing Champs logo speaking with a homeowner, with a navy branded service vehicle using the same real logo visible. Include subtle local roofing conditions, no readable street signs, no text. Person on the right looks left toward website copy and CTA. Variant 21.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-winnetka-ca.webp"
+  },
+  {
+    "slug": "roof-leaking-after-rain",
+    "title": "Roof Leaking After Rain",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roofing problem guidance image for Roof Leaking After Rain. Show a Roofing Champs employee in a navy branded uniform inspecting or explaining a roof issue safely from ladder or ground level, with homeowner nearby and a branded navy service truck using the real Roofing Champs logo visible. The image should clearly imply roof leaking after rain without dramatic disaster, no text, no gore, no unsafe roof walking. Employee gaze points left toward CTA. Variant 1.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-leaking-after-rain.webp"
+  },
+  {
+    "slug": "missing-shingles",
+    "title": "Missing Shingles",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roofing problem guidance image for Missing Shingles. Show a Roofing Champs employee in a navy branded uniform inspecting or explaining a roof issue safely from ladder or ground level, with homeowner nearby and a branded navy service truck using the real Roofing Champs logo visible. The image should clearly imply missing shingles without dramatic disaster, no text, no gore, no unsafe roof walking. Employee gaze points left toward CTA. Variant 2.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\missing-shingles.webp"
+  },
+  {
+    "slug": "storm-damaged-roof",
+    "title": "Storm Damaged Roof",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roofing problem guidance image for Storm Damaged Roof. Show a Roofing Champs employee in a navy branded uniform inspecting or explaining a roof issue safely from ladder or ground level, with homeowner nearby and a branded navy service truck using the real Roofing Champs logo visible. The image should clearly imply storm damaged roof without dramatic disaster, no text, no gore, no unsafe roof walking. Employee gaze points left toward CTA. Variant 3.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\storm-damaged-roof.webp"
+  },
+  {
+    "slug": "water-stains-on-ceiling",
+    "title": "Water Stains on Ceiling",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roofing problem guidance image for Water Stains on Ceiling. Show a Roofing Champs employee in a navy branded uniform inspecting or explaining a roof issue safely from ladder or ground level, with homeowner nearby and a branded navy service truck using the real Roofing Champs logo visible. The image should clearly imply water stains on ceiling without dramatic disaster, no text, no gore, no unsafe roof walking. Employee gaze points left toward CTA. Variant 4.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\water-stains-on-ceiling.webp"
+  },
+  {
+    "slug": "roof-flashing-damage",
+    "title": "Roof Flashing Damage",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roofing problem guidance image for Roof Flashing Damage. Show a Roofing Champs employee in a navy branded uniform inspecting or explaining a roof issue safely from ladder or ground level, with homeowner nearby and a branded navy service truck using the real Roofing Champs logo visible. The image should clearly imply roof flashing damage without dramatic disaster, no text, no gore, no unsafe roof walking. Employee gaze points left toward CTA. Variant 5.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-flashing-damage.webp"
+  },
+  {
+    "slug": "flat-roof-ponding-water",
+    "title": "Flat Roof Ponding Water",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roofing problem guidance image for Flat Roof Ponding Water. Show a Roofing Champs employee in a navy branded uniform inspecting or explaining a roof issue safely from ladder or ground level, with homeowner nearby and a branded navy service truck using the real Roofing Champs logo visible. The image should clearly imply flat roof ponding water without dramatic disaster, no text, no gore, no unsafe roof walking. Employee gaze points left toward CTA. Variant 6.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\flat-roof-ponding-water.webp"
+  },
+  {
+    "slug": "old-roof-repair-or-replace",
+    "title": "Old Roof: Repair or Replace",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roofing problem guidance image for Old Roof: Repair or Replace. Show a Roofing Champs employee in a navy branded uniform inspecting or explaining a roof issue safely from ladder or ground level, with homeowner nearby and a branded navy service truck using the real Roofing Champs logo visible. The image should clearly imply old roof: repair or replace without dramatic disaster, no text, no gore, no unsafe roof walking. Employee gaze points left toward CTA. Variant 7.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\old-roof-repair-or-replace.webp"
+  },
+  {
+    "slug": "how-much-does-a-new-roof-cost",
+    "title": "How much does a new roof cost?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How much does a new roof cost?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 1.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-much-does-a-new-roof-cost.webp"
+  },
+  {
+    "slug": "signs-you-need-a-new-roof",
+    "title": "What are the signs you need a new roof?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What are the signs you need a new roof?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 2.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\signs-you-need-a-new-roof.webp"
+  },
+  {
+    "slug": "does-homeowners-insurance-cover-roof-replacement",
+    "title": "Does homeowners insurance cover roof replacement?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: Does homeowners insurance cover roof replacement?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 3.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\does-homeowners-insurance-cover-roof-replacement.webp"
+  },
+  {
+    "slug": "how-to-file-insurance-claim-for-roof-damage",
+    "title": "How do you file an insurance claim for roof damage?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How do you file an insurance claim for roof damage?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 4.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-to-file-insurance-claim-for-roof-damage.webp"
+  },
+  {
+    "slug": "how-long-does-roof-installation-take",
+    "title": "How long does roof installation take?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How long does roof installation take?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 5.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-long-does-roof-installation-take.webp"
+  },
+  {
+    "slug": "best-time-to-replace-a-roof",
+    "title": "What is the best time to replace a roof?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What is the best time to replace a roof?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 6.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\best-time-to-replace-a-roof.webp"
+  },
+  {
+    "slug": "can-you-roof-over-existing-shingles",
+    "title": "Can you roof over existing shingles?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: Can you roof over existing shingles?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 7.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\can-you-roof-over-existing-shingles.webp"
+  },
+  {
+    "slug": "how-long-does-a-roof-last",
+    "title": "How long does a roof last?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How long does a roof last?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 8.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-long-does-a-roof-last.webp"
+  },
+  {
+    "slug": "best-roofing-material-for-california-heat",
+    "title": "What is the best roofing material for California heat?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What is the best roofing material for California heat?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 9.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\best-roofing-material-for-california-heat.webp"
+  },
+  {
+    "slug": "best-roofing-material-for-new-jersey-weather",
+    "title": "What is the best roofing material for New Jersey weather?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What is the best roofing material for New Jersey weather?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 10.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\best-roofing-material-for-new-jersey-weather.webp"
+  },
+  {
+    "slug": "how-much-does-it-cost-to-repair-a-roof-leak",
+    "title": "How much does it cost to repair a roof leak?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How much does it cost to repair a roof leak?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 11.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-much-does-it-cost-to-repair-a-roof-leak.webp"
+  },
+  {
+    "slug": "how-to-choose-a-roofing-contractor",
+    "title": "How do I choose a roofing contractor?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How do I choose a roofing contractor?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 12.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-to-choose-a-roofing-contractor.webp"
+  },
+  {
+    "slug": "will-my-insurance-drop-me-if-my-roof-is-old",
+    "title": "Will my homeowners insurance drop me if my roof is old?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: Will my homeowners insurance drop me if my roof is old?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 13.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\will-my-insurance-drop-me-if-my-roof-is-old.webp"
+  },
+  {
+    "slug": "what-does-a-roof-inspection-cost",
+    "title": "What does a roof inspection cost?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What does a roof inspection cost?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 14.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\what-does-a-roof-inspection-cost.webp"
+  },
+  {
+    "slug": "is-metal-roofing-worth-it",
+    "title": "Is metal roofing worth it?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: Is metal roofing worth it?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 15.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\is-metal-roofing-worth-it.webp"
+  },
+  {
+    "slug": "how-loud-is-roof-installation",
+    "title": "How loud is roof installation?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How loud is roof installation?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 16.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-loud-is-roof-installation.webp"
+  },
+  {
+    "slug": "what-is-a-roof-warranty",
+    "title": "What is a roof warranty?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What is a roof warranty?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 17.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\what-is-a-roof-warranty.webp"
+  },
+  {
+    "slug": "how-to-spot-a-roof-leak",
+    "title": "How do I spot a roof leak?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How do I spot a roof leak?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 18.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-to-spot-a-roof-leak.webp"
+  },
+  {
+    "slug": "architectural-vs-3-tab-shingles",
+    "title": "What's the difference between architectural and 3-tab shingles?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What's the difference between architectural and 3-tab shingles?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 19.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\architectural-vs-3-tab-shingles.webp"
+  },
+  {
+    "slug": "do-new-roofs-add-home-value",
+    "title": "Do new roofs add home value?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: Do new roofs add home value?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 20.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "missing-raw",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\do-new-roofs-add-home-value.webp"
+  },
+  {
+    "slug": "roof-repair-vs-restoration",
+    "title": "What's the difference between roof repair and roof restoration?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What's the difference between roof repair and roof restoration?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 21.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "missing-raw",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-repair-vs-restoration.webp"
+  },
+  {
+    "slug": "can-you-patch-a-flat-roof",
+    "title": "Can you patch a flat roof?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: Can you patch a flat roof?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 22.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "missing-raw",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\can-you-patch-a-flat-roof.webp"
+  },
+  {
+    "slug": "how-to-read-a-roofing-estimate",
+    "title": "How do I read a roofing estimate?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How do I read a roofing estimate?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 23.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "missing-raw",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-to-read-a-roofing-estimate.webp"
+  },
+  {
+    "slug": "what-is-gaf-master-elite",
+    "title": "What is GAF Master Elite certification?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What is GAF Master Elite certification?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 24.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "missing-raw",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\what-is-gaf-master-elite.webp"
+  },
+  {
+    "slug": "should-i-tip-my-roofer",
+    "title": "Should I tip my roofer?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: Should I tip my roofer?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 25.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "missing-raw",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\should-i-tip-my-roofer.webp"
+  },
+  {
+    "slug": "how-long-after-roof-leak-mold-grow",
+    "title": "How long after a roof leak can mold grow?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: How long after a roof leak can mold grow?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 26.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "missing-raw",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\how-long-after-roof-leak-mold-grow.webp"
+  },
+  {
+    "slug": "do-i-need-to-be-home-during-roof-replacement",
+    "title": "Do I need to be home during roof replacement?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: Do I need to be home during roof replacement?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 27.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "missing-raw",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\do-i-need-to-be-home-during-roof-replacement.webp"
+  },
+  {
+    "slug": "what-time-of-year-do-roof-leaks-happen-most",
+    "title": "What time of year do roof leaks happen most?",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. FAQ answer page image for the question: What time of year do roof leaks happen most?. Show a Roofing Champs employee in navy uniform with the real Roofing Champs logo using a clipboard/tablet to explain roofing options to a homeowner. Include a branded navy service vehicle using the same real logo and relevant roof details. Calm educational mood, no text overlays, no charts. Person looks left toward page answer and CTA. Variant 28.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "missing-raw",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\what-time-of-year-do-roof-leaks-happen-most.webp"
+  },
+  {
+    "slug": "roof-replacement-elizabeth-nj",
+    "title": "Roof replacement Elizabeth",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Elizabeth, NJ. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 1.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-elizabeth-nj.webp"
+  },
+  {
+    "slug": "roof-replacement-sewell-nj",
+    "title": "Roof replacement Sewell",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Sewell, NJ. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 2.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-sewell-nj.webp"
+  },
+  {
+    "slug": "roof-replacement-turnersville-nj",
+    "title": "Roof replacement Turnersville",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Turnersville, NJ. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 3.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-turnersville-nj.webp"
+  },
+  {
+    "slug": "roof-replacement-vineland-nj",
+    "title": "Roof replacement Vineland",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Vineland, NJ. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 4.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-vineland-nj.webp"
+  },
+  {
+    "slug": "roof-replacement-west-caldwell-nj",
+    "title": "Roof replacement West Caldwell",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for West Caldwell, NJ. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 5.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-west-caldwell-nj.webp"
+  },
+  {
+    "slug": "roof-replacement-williamstown-nj",
+    "title": "Roof replacement Williamstown",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Williamstown, NJ. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 6.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-williamstown-nj.webp"
+  },
+  {
+    "slug": "roof-replacement-culver-city-ca",
+    "title": "Roof replacement Culver City",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Culver City, CA. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 7.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-culver-city-ca.webp"
+  },
+  {
+    "slug": "roof-replacement-gilroy-ca",
+    "title": "Roof replacement Gilroy",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Gilroy, CA. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 8.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-gilroy-ca.webp"
+  },
+  {
+    "slug": "roof-replacement-oakdale-ca",
+    "title": "Roof replacement Oakdale",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Oakdale, CA. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 9.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-oakdale-ca.webp"
+  },
+  {
+    "slug": "roof-replacement-san-jose-ca",
+    "title": "Roof replacement San Jose",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for San Jose, CA. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 10.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-san-jose-ca.webp"
+  },
+  {
+    "slug": "roof-replacement-san-pedro-ca",
+    "title": "Roof replacement San Pedro",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for San Pedro, CA. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 11.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-san-pedro-ca.webp"
+  },
+  {
+    "slug": "roof-replacement-torrance-ca",
+    "title": "Roof replacement Torrance",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Torrance, CA. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 12.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-torrance-ca.webp"
+  },
+  {
+    "slug": "roof-replacement-turlock-ca",
+    "title": "Roof replacement Turlock",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Turlock, CA. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 13.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-turlock-ca.webp"
+  },
+  {
+    "slug": "roof-replacement-van-nuys-ca",
+    "title": "Roof replacement Van Nuys",
+    "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Van Nuys, CA. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 14.",
+    "imageInput": [
+      "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
+    ],
+    "status": "optimized-existing",
+    "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-van-nuys-ca.webp"
+  },
+  {
     "slug": "roof-replacement-winnetka-ca",
     "title": "Roof replacement Winnetka",
     "prompt": "photorealistic editorial website hero image, 16:9 landscape, natural light, realistic people, professional roofing context, conversion-focused, no text overlays, no watermark. Use the provided Roofing Champs logo reference exactly for any visible uniform patch, shirt emblem, vehicle door logo, or vehicle branding. Do not invent a different crest, badge, text mark, mascot, or alternate logo. If the logo would be too small to render accurately, keep it simple and avoid readable text. Roof replacement planning image for Winnetka, CA. Show Roofing Champs crew members in navy uniforms with the real Roofing Champs logo beside a branded navy service truck using the same real logo, reviewing shingles or roofing materials with a homeowner. Residential roof visible, clean jobsite, no text. Main employee looks left toward the CTA. Variant 15.",
     "imageInput": [
       "https://raw.githubusercontent.com/joeybeyer/roofingchamps/main/site/apple-touch-icon.png"
     ],
-    "status": "generated",
-    "taskId": "87f78e0895da120057b9951c6bbc8c9c",
+    "status": "optimized-existing",
     "file": "C:\\Users\\joey\\Downloads\\projects\\Roofing Champs\\site\\assets\\generated\\roof-replacement-winnetka-ca.webp"
   }
 ]

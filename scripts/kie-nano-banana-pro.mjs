@@ -130,12 +130,10 @@ async function download(url, file) {
 }
 
 async function optimize(input, output) {
-  const branded = input.replace(/\.png$/i, ".branded.png");
-  await compositeExactLogo(input, branded);
   const ffmpegArgs = [
     "-y",
     "-i",
-    branded,
+    input,
     "-vf",
     "scale='min(1600,iw)':-2",
     "-c:v",
@@ -151,25 +149,6 @@ async function optimize(input, output) {
     const child = spawn("ffmpeg", ffmpegArgs, { stdio: "ignore" });
     child.on("error", reject);
     child.on("exit", (code) => (code === 0 ? resolve() : reject(new Error(`ffmpeg exited ${code}`))));
-  });
-}
-
-async function compositeExactLogo(input, output) {
-  const logo = path.join(root, "site", "apple-touch-icon.png");
-  const { spawn } = await import("node:child_process");
-  const filter =
-    "[1:v]scale=92:-1[shirt];" +
-    "[1:v]scale=170:-1[truck];" +
-    "[0:v][shirt]overlay=W*0.68:H*0.28[tmp];" +
-    "[tmp][truck]overlay=W*0.12:H*0.48";
-  await new Promise((resolve, reject) => {
-    const child = spawn(
-      "ffmpeg",
-      ["-y", "-i", input, "-i", logo, "-filter_complex", filter, "-frames:v", "1", output],
-      { stdio: "ignore" }
-    );
-    child.on("error", reject);
-    child.on("exit", (code) => (code === 0 ? resolve() : reject(new Error(`logo composite exited ${code}`))));
   });
 }
 

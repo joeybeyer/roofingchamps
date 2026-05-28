@@ -408,12 +408,77 @@ function header(contact = brand) {
   </a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
   <nav id="site-nav" class="site-nav">
-    <a href="/roof-repair/">Repairs</a>
-    <a href="/emergency-roof-repair/">Emergency Help</a>
-    <a href="/roof-replacement/">Replacement</a>
-    <a href="/residential-roofing-services/">Residential</a>
-    <a href="/commercial-roofing-services/">Commercial</a>
-    <a href="/service-areas/">Service Areas</a>
+    <details class="nav-menu">
+      <summary>Roof Repair</summary>
+      <div class="nav-panel">
+        <a href="/roof-repair/">Roof Repair</a>
+        <a href="/emergency-roof-repair/">Emergency Roof Repair</a>
+        <a href="/roof-leak-repair/">Roof Leak Repair</a>
+        <a href="/storm-damage-roof-repair/">Storm Damage Roof Repair</a>
+        <a href="/shingle-roof-repair/">Shingle Roof Repair</a>
+        <a href="/flat-roof-repair/">Flat Roof Repair</a>
+      </div>
+    </details>
+    <details class="nav-menu">
+      <summary>Roof Replacement</summary>
+      <div class="nav-panel">
+        <a href="/roof-replacement/">Roof Replacement</a>
+        <a href="/residential-roof-replacement/">Residential Roof Replacement</a>
+        <a href="/commercial-roof-replacement/">Commercial Roof Replacement</a>
+        <a href="/roof-replacement-cost/">Roof Replacement Cost</a>
+        <a href="/roof-repair-vs-replacement/">Repair vs Replacement</a>
+        <a href="/roofing-materials/">Roofing Materials</a>
+      </div>
+    </details>
+    <details class="nav-menu">
+      <summary>Roofing Services</summary>
+      <div class="nav-panel">
+        <a href="/residential-roofing-services/">Residential Roofing Services</a>
+        <a href="/commercial-roofing-services/">Commercial Roofing Services</a>
+        <a href="/roof-inspection/">Roof Inspection</a>
+        <a href="/free-roof-inspection/">Free Roof Inspection</a>
+        <a href="/metal-roofing/">Metal Roofing</a>
+        <a href="/custom-design-roofs/">Custom Design Roofs</a>
+      </div>
+    </details>
+    <details class="nav-menu nav-menu-wide">
+      <summary>Service Areas</summary>
+      <div class="nav-panel nav-panel-wide">
+        <div>
+          <strong>California</strong>
+          <a href="/roof-repair-culver-city-ca/">Roof Repair Culver City CA</a>
+          <a href="/roof-repair-san-jose-ca/">Roof Repair San Jose CA</a>
+          <a href="/roof-repair-torrance-ca/">Roof Repair Torrance CA</a>
+          <a href="/roof-repair-van-nuys-ca/">Roof Repair Van Nuys CA</a>
+          <a href="/roof-replacement-san-jose-ca/">Roof Replacement San Jose CA</a>
+        </div>
+        <div>
+          <strong>New Jersey</strong>
+          <a href="/roof-repair-cape-may-nj/">Roof Repair Cape May NJ</a>
+          <a href="/roof-repair-vineland-nj/">Roof Repair Vineland NJ</a>
+          <a href="/roof-repair-sewell-nj/">Roof Repair Sewell NJ</a>
+          <a href="/roof-repair-west-caldwell-nj/">Roof Repair West Caldwell NJ</a>
+          <a href="/roof-replacement-vineland-nj/">Roof Replacement Vineland NJ</a>
+        </div>
+        <div>
+          <strong>All Areas</strong>
+          <a href="/service-areas/">Service Areas</a>
+          <a href="/roofing-permits-california/">California Roofing Permits</a>
+          <a href="/roofing-permits-new-jersey/">New Jersey Roofing Permits</a>
+        </div>
+      </div>
+    </details>
+    <details class="nav-menu">
+      <summary>Roofing Guides</summary>
+      <div class="nav-panel">
+        <a href="/faqs/">Roofing FAQs</a>
+        <a href="/signs-you-need-a-new-roof/">Signs You Need a New Roof</a>
+        <a href="/how-much-does-a-new-roof-cost/">New Roof Cost Guide</a>
+        <a href="/how-to-file-insurance-claim-for-roof-damage/">Roof Insurance Claims</a>
+        <a href="/best-roofing-material-for-california-heat/">California Roofing Materials</a>
+        <a href="/best-roofing-material-for-new-jersey-weather/">New Jersey Roofing Materials</a>
+      </div>
+    </details>
     <a href="/how-it-works/">How It Works</a>
   </nav>
   <a class="header-call" href="${contact.phoneHref}">Call Now</a>
@@ -421,23 +486,57 @@ function header(contact = brand) {
 }
 
 function footer() {
+  const year = new Date().getFullYear();
   return `<footer class="site-footer">
-  <div>
-    <a class="brand footer-brand" href="/"><span class="brand-mark"><img src="/apple-touch-icon.png?v=1" alt="" aria-hidden="true"></span><span><span class="brand-name">Roofing Champs</span><small>${brand.promise}</small></span></a>
-    <p>Roofing Champs helps homeowners request roofing estimates for leaks, storm damage, inspections, repairs, and replacements. We do not use fake local addresses or fake reviews.</p>
+  <div class="footer-top">
+    <div class="footer-col footer-brand-col">
+      <a class="brand footer-brand" href="/"><span class="brand-mark"><img src="/apple-touch-icon.png?v=1" alt="" aria-hidden="true"></span><span><span class="brand-name">Roofing Champs</span><small>Fast roofing help</small></span></a>
+      <p class="footer-blurb">Roofing Champs helps homeowners across California and New Jersey request roofing estimates for leaks, storm damage, inspections, repairs, and replacements. No fake reviews, no fake offices, no pressure calls.</p>
+      <div class="footer-contact">
+        <a href="${brand.phoneHref}">Call ${brand.phone}</a>
+        <a class="secondary" href="/#quote-form">Get a free estimate</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h2>Services</h2>
+      <a href="/roof-repair/">Roof repair</a>
+      <a href="/emergency-roof-repair/">Emergency repair</a>
+      <a href="/emergency-roof-tarping/">Emergency tarping</a>
+      <a href="/roof-leak-repair/">Leak tracing</a>
+      <a href="/storm-damage-roof-repair/">Storm damage</a>
+      <a href="/roof-inspection/">Inspections</a>
+      <a href="/roof-replacement/">Roof replacement</a>
+      <a href="/roof-repair-vs-replacement/">Repair vs replacement</a>
+      <a href="/roofing-materials/">Roofing materials</a>
+      <a href="/commercial-roofing-services/">Commercial roofing</a>
+    </div>
+    <div class="footer-col">
+      <h2>Company</h2>
+      <a href="/about/">About</a>
+      <a href="/how-it-works/">How it works</a>
+      <a href="/service-areas/">Service areas</a>
+      <a href="/reviews/">Reviews</a>
+      <a href="/faqs/">Roofing FAQs</a>
+      <a href="/roof-insurance-claim-help/">Insurance claim help</a>
+      <a href="/roof-replacement-cost/">Replacement cost</a>
+    </div>
+    <div class="footer-col">
+      <h2>Where we work</h2>
+      <p class="footer-markets">California (Bay Area, Central Valley, LA / South Bay, the Valley) and New Jersey (Cape May County, Gloucester, Essex, North Jersey).</p>
+      <a href="/roofing-permits-california/">CA roofing permits</a>
+      <a href="/roofing-permits-new-jersey/">NJ roofing permits</a>
+      <a href="/best-roofing-material-for-california-heat/">CA material guide</a>
+      <a href="/best-roofing-material-for-new-jersey-weather/">NJ material guide</a>
+    </div>
   </div>
-  <div>
-    <h2>Services</h2>
-    ${services.slice(0, 10).map((service) => `<a href="/${service.slug}/">${serviceNavLabel(service)}</a>`).join("")}
-  </div>
-  <div>
-    <h2>Company</h2>
-    <a href="/about/">About</a>
-    <a href="/how-it-works/">How It Works</a>
-    <a href="/service-areas/">Service Areas</a>
-    <a href="/partner-disclosure/">Partner Disclosure</a>
-    <a href="/privacy-policy/">Privacy Policy</a>
-    <a href="/terms/">Terms</a>
+  <div class="footer-bottom">
+    <p class="footer-fineprint">&copy; ${year} Roofing Champs. Roofing Champs may connect homeowners with roofing professionals or service providers in their area. Consent is not a condition of purchase. Estimates are non-binding.</p>
+    <div class="footer-legal">
+      <a href="/partner-disclosure/">Partner Disclosure</a>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/terms/">Terms</a>
+      <a href="/contact/">Contact</a>
+    </div>
   </div>
 </footer>`;
 }
@@ -676,6 +775,33 @@ function exactQueryIntro(query, copy) {
   return `<p class="query-intro"><strong>${esc(query)}</strong>: ${esc(copy)}</p>`;
 }
 
+function quoteFormTrustCards({ stepsCardTitle = "What happens after you submit", whereTitle = "Where we work" } = {}) {
+  return `<div class="trust-cards">
+    <article class="trust-card">
+      <h3>${esc(stepsCardTitle)}</h3>
+      <ol class="steps compact">
+        <li>We confirm your area and route the request to a local roofing pro.</li>
+        <li>They reach out by your preferred method - phone, text, or email.</li>
+        <li>You get a written scope and decide. No pressure, no contracts you didn't ask for.</li>
+      </ol>
+    </article>
+    <article class="trust-card">
+      <h3>Why homeowners use Roofing Champs</h3>
+      <ul class="check-list">
+        <li>Free to request - no card, no contract</li>
+        <li>Local pros only - no out-of-state cold calls</li>
+        <li>Emergency requests flagged and prioritized</li>
+        <li>No fake reviews, no "#1" claims, no fake offices</li>
+      </ul>
+    </article>
+    <article class="trust-card">
+      <h3>${esc(whereTitle)}</h3>
+      <p>California (Bay Area, Central Valley, LA / South Bay, the Valley) and selected New Jersey communities (Cape May County, Gloucester, North Jersey).</p>
+      <div class="mini-list"><a href="/service-areas/">All service areas</a><a href="/about/">About</a><a href="/how-it-works/">How it works</a></div>
+    </article>
+  </div>`;
+}
+
 function cityClusterSection(city) {
   const profile = cityProfiles[city.city];
   const stateName = city.stateAbbr;
@@ -705,7 +831,7 @@ function home() {
       "Leak after the last storm? Shingles in the yard? Roof finally looking its age? You're in the right place - we help homeowners get fast, honest roofing estimates from local pros.",
   })}
   ${trustBar()}
-  <section id="quote-form" class="section split">${quoteForm()}<div><p class="eyebrow">How this works</p><h2>Start With The Problem - We'll Help You Pick The Right Fix</h2><p>Tell us what's actually happening up there. Leak? Missing shingles? Storm damage? Roof that's gone gray? Just a question? We route your request to local roofing pros so you can compare real options - repair, inspection, or replacement - without the high-pressure sales game.</p><div class="mini-list"><span>Roof leaks</span><span>Storm damage</span><span>Replacement estimates</span><span>Roof inspections</span></div></div></section>
+  <section id="quote-form" class="section split">${quoteForm()}<div><p class="eyebrow">How this works</p><h2>Start With The Problem - We'll Help You Pick The Right Fix</h2><p>Tell us what's actually happening up there. Leak? Missing shingles? Storm damage? Roof that's gone gray? Just a question? We route your request to local roofing pros so you can compare real options - repair, inspection, or replacement - without the high-pressure sales game.</p><div class="mini-list"><span>Roof leaks</span><span>Storm damage</span><span>Replacement estimates</span><span>Roof inspections</span></div>${quoteFormTrustCards()}</div></section>
   ${decisionFitSection({ title: "Roofing Champs homepage" })}
   ${quantifiedSection({ title: "roofing estimate requests" })}
   ${featureUseCaseSection({ title: "home roofing help" })}
@@ -756,34 +882,95 @@ function cityPage(city) {
 }
 
 function serviceRelatedGuides(service) {
-  const links = [];
   const slug = service.slug;
   const isEmergencyOrStorm = slug.includes("emergency") || slug.includes("storm") || slug === "roof-damage-repair" || slug === "roof-leak-repair";
   const isRepair = slug === "roof-repair" || slug === "residential-roof-repair" || slug === "shingle-roof-repair" || slug === "roof-damage-repair";
   const isReplacement = slug.includes("replacement");
   const isMaterial = slug === "shingle-roof-repair" || slug === "metal-roofing" || slug === "flat-roof-repair" || slug === "flat-roof-repair-install" || slug === "commercial-roof-restoration" || slug === "custom-design-roofs" || slug.includes("replacement");
+  const isInspection = slug === "roof-inspection" || slug === "free-roof-inspection";
+  const isCommercial = slug.startsWith("commercial-");
+  const seenGuides = new Set();
+  const seenPaa = new Set();
+  const guideLinks = [];
+  const paaSlugs = [];
+  const pushGuide = (href, label) => {
+    if (seenGuides.has(href)) return;
+    seenGuides.add(href);
+    guideLinks.push([href, label]);
+  };
+  const pushPaa = (paaSlug) => {
+    if (seenPaa.has(paaSlug)) return;
+    seenPaa.add(paaSlug);
+    paaSlugs.push(paaSlug);
+  };
+
+  // Content hubs (chip-style related guides)
+  pushGuide("/roof-repair-vs-replacement/", "Repair vs replacement");
+  pushGuide("/roofing-materials/", "Compare roofing materials");
+  pushGuide("/roof-replacement-cost/", "Replacement cost factors");
+  pushGuide("/roof-insurance-claim-help/", "Insurance claim help");
   if (isEmergencyOrStorm) {
-    links.push(["/emergency-roof-tarping/", "Emergency roof tarping"]);
-    links.push(["/roof-insurance-claim-help/", "Roof insurance claim help"]);
+    pushGuide("/emergency-roof-tarping/", "Emergency roof tarping");
   }
-  if (isRepair || isReplacement) {
-    links.push(["/roof-repair-vs-replacement/", "Repair vs replacement"]);
+  if (slug === "roof-replacement" || slug.includes("residential-roof") || slug === "roof-repair") {
+    pushGuide("/roofing-permits-california/", "CA roofing permits");
+    pushGuide("/roofing-permits-new-jersey/", "NJ roofing permits");
+  }
+
+  // PAA pages (card-style with answer preview)
+  pushPaa("how-much-does-a-new-roof-cost");
+  pushPaa("how-to-choose-a-roofing-contractor");
+  if (isEmergencyOrStorm) {
+    pushPaa("how-to-spot-a-roof-leak");
+    pushPaa("how-much-does-it-cost-to-repair-a-roof-leak");
+    pushPaa("how-long-after-roof-leak-mold-grow");
+    pushPaa("does-homeowners-insurance-cover-roof-replacement");
+  }
+  if (isRepair) {
+    pushPaa("how-much-does-it-cost-to-repair-a-roof-leak");
+    pushPaa("how-to-spot-a-roof-leak");
+    pushPaa("roof-repair-vs-restoration");
+    pushPaa("signs-you-need-a-new-roof");
   }
   if (isReplacement) {
-    links.push(["/how-much-does-a-new-roof-cost/", "New roof cost guide"]);
-    links.push(["/roof-replacement-cost/", "Replacement cost factors"]);
+    pushPaa("signs-you-need-a-new-roof");
+    pushPaa("what-is-a-roof-warranty");
+    pushPaa("how-to-read-a-roofing-estimate");
+    pushPaa("do-new-roofs-add-home-value");
+    pushPaa("will-my-insurance-drop-me-if-my-roof-is-old");
+    pushPaa("how-long-does-roof-installation-take");
+    pushPaa("can-you-roof-over-existing-shingles");
+    pushPaa("best-time-to-replace-a-roof");
   }
   if (isMaterial) {
-    links.push(["/roofing-materials/", "Compare roofing materials"]);
+    pushPaa("architectural-vs-3-tab-shingles");
+    pushPaa("is-metal-roofing-worth-it");
+    pushPaa("how-long-does-a-roof-last");
   }
-  if (slug === "roof-inspection" || slug === "free-roof-inspection") {
-    links.push(["/roof-repair-vs-replacement/", "Repair vs replacement"]);
-    links.push(["/signs-you-need-a-new-roof/", "Signs you need a new roof"]);
+  if (isInspection) {
+    pushPaa("what-does-a-roof-inspection-cost");
+    pushPaa("signs-you-need-a-new-roof");
+    pushPaa("how-to-spot-a-roof-leak");
   }
-  if (links.length === 0) {
-    return "";
+  if (isCommercial) {
+    pushPaa("roof-repair-vs-restoration");
+    pushPaa("can-you-patch-a-flat-roof");
+    pushPaa("how-long-does-a-roof-last");
   }
-  return `<section class="section band"><div class="section-head"><p class="eyebrow">Related guides</p><h2>More Roofing Help</h2></div><div class="link-grid">${links.map(([href, label]) => `<a href="${href}">${esc(label)}</a>`).join("")}</div></section>`;
+  // Always cap to a reasonable card count for layout
+  const paaCards = paaSlugs
+    .map((s) => paaPages.find((p) => p.slug === s))
+    .filter(Boolean)
+    .slice(0, 8);
+
+  const guidesBlock = `<section class="section band"><div class="section-head"><p class="eyebrow">Related guides</p><h2>Related Roofing Guides</h2></div><div class="link-grid">${guideLinks.map(([href, label]) => `<a href="${href}">${esc(label)}</a>`).join("")}</div></section>`;
+
+  const paaBlock = paaCards.length === 0 ? "" : `<section class="section"><div class="section-head"><p class="eyebrow">Questions homeowners ask</p><h2>More Roofing Questions Answered</h2></div><div class="card-grid">${paaCards.map((paa) => {
+    const preview = paa.answer.length > 180 ? `${paa.answer.slice(0, 175).trim()}…` : paa.answer;
+    return `<article class="card"><h3>${esc(paa.question)}</h3><p>${esc(preview)}</p><a href="/${paa.slug}/">Read answer</a></article>`;
+  }).join("")}</div></section>`;
+
+  return `${guidesBlock}${paaBlock}`;
 }
 
 function servicePage(service) {
@@ -798,7 +985,7 @@ function servicePage(service) {
   ];
   const body = `${hero({ kicker: `${serviceNavLabel(service)} estimate requests`, h1: service.h1, description: pageDescription, cta: service.slug.includes("emergency") ? "Get Help With a Roof Leak" : "Request Roofing Help" })}
   ${trustBar()}
-  <section id="quote-form" class="section split">${quoteForm()}<div itemscope itemtype="https://schema.org/Service"><meta itemprop="serviceType" content="${esc(service.name)}"><meta itemprop="category" content="Roofing"><div itemprop="provider" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="${esc(brand.name)}"><meta itemprop="url" content="${brand.domain}"></div><div itemprop="areaServed" itemscope itemtype="https://schema.org/State"><meta itemprop="name" content="California"></div><div itemprop="areaServed" itemscope itemtype="https://schema.org/State"><meta itemprop="name" content="New Jersey"></div><p class="eyebrow">When ${audience} land on this page</p><h2 itemprop="name">What This Helps You Sort Out</h2><p class="query-intro"><strong>Honest framing</strong>: this page exists for ${audience} comparing repair, inspection, and replacement options after visible roof damage or water showing up where it shouldn't. If you're somewhere in that decision space, you're in the right spot.</p><p itemprop="description">${pageDescription}</p><div class="mini-list">${service.problems.map((problem) => `<span>${problem}</span>`).join("")}</div><div itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="name" content="${esc(service.name)} estimate request"><meta itemprop="price" content="0"><meta itemprop="priceCurrency" content="USD"><meta itemprop="availability" content="https://schema.org/InStock"><meta itemprop="description" content="Free roofing estimate request for ${esc(service.name.toLowerCase())} - no obligation, no contract"></div></div></section>
+  <section id="quote-form" class="section split">${quoteForm()}<div itemscope itemtype="https://schema.org/Service"><meta itemprop="serviceType" content="${esc(service.name)}"><meta itemprop="category" content="Roofing"><div itemprop="provider" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="${esc(brand.name)}"><meta itemprop="url" content="${brand.domain}"></div><div itemprop="areaServed" itemscope itemtype="https://schema.org/State"><meta itemprop="name" content="California"></div><div itemprop="areaServed" itemscope itemtype="https://schema.org/State"><meta itemprop="name" content="New Jersey"></div><p class="eyebrow">When ${audience} land on this page</p><h2 itemprop="name">What This Helps You Sort Out</h2><p class="query-intro"><strong>Honest framing</strong>: this page exists for ${audience} comparing repair, inspection, and replacement options after visible roof damage or water showing up where it shouldn't. If you're somewhere in that decision space, you're in the right spot.</p><p itemprop="description">${pageDescription}</p><div class="mini-list">${service.problems.map((problem) => `<span>${problem}</span>`).join("")}</div>${quoteFormTrustCards({ stepsCardTitle: `What happens after you request ${serviceLabel}` })}<div itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="name" content="${esc(service.name)} estimate request"><meta itemprop="price" content="0"><meta itemprop="priceCurrency" content="USD"><meta itemprop="availability" content="https://schema.org/InStock"><meta itemprop="description" content="Free roofing estimate request for ${esc(service.name.toLowerCase())} - no obligation, no contract"></div></div></section>
   ${decisionFitSection({ service })}
   ${quantifiedSection({ service })}
   ${featureUseCaseSection({ service })}
@@ -816,7 +1003,16 @@ function localLinksForService(service) {
       .map((city) => `<a href="/roof-replacement-${city.city.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-${city.stateAbbr.toLowerCase()}/">New roof options in ${city.city}, ${city.stateAbbr}</a>`)
       .join("");
   }
-  return cities.slice(0, 8).map((city) => `<a href="${city.url}">${city.city}, ${city.stateAbbr}</a>`).join("");
+  // Interleave NJ + CA cities so both markets are represented in the
+  // "Popular local pages" block on every service page.
+  const njCities = cities.filter((city) => city.stateAbbr === "NJ").slice(0, 4);
+  const caCities = cities.filter((city) => city.stateAbbr === "CA").slice(0, 4);
+  const mixed = [];
+  for (let i = 0; i < 4; i += 1) {
+    if (njCities[i]) mixed.push(njCities[i]);
+    if (caCities[i]) mixed.push(caCities[i]);
+  }
+  return mixed.map((city) => `<a href="${city.url}">${city.city}, ${city.stateAbbr}</a>`).join("");
 }
 
 function trustPage(slug, title, h1, copy) {
@@ -1347,7 +1543,7 @@ function emergencyTarpingPage() {
   ];
   const body = `${hero({
     kicker: "Storm leak mitigation requests",
-    h1: "Emergency Roof Tarping When Water Is Getting In",
+    h1: "Temporary Storm Cover Before Water Spreads",
     description,
     cta: "Request Urgent Roofing Help",
   })}
@@ -1402,7 +1598,7 @@ function emergencyTarpingPage() {
   ${faqBlock(faqs)}
   <section class="section final-cta"><h2>Request Emergency Roof Tarping</h2><p>If water's coming in right now, don't wait. Start the request and share whatever details you've got.</p><a class="btn primary" href="#quote-form">Get Urgent Roofing Help</a></section>
   ${lastUpdatedLine()}`;
-  writePage(slug, page(title, description, body, contentPageSchemas({ slug, h1: "Emergency Roof Tarping When Water Is Getting In", description, faqs }), slug), { priority: "0.78" });
+  writePage(slug, page(title, description, body, contentPageSchemas({ slug, h1: "Temporary Storm Cover Before Water Spreads", description, faqs }), slug), { priority: "0.78" });
 }
 
 function repairVsReplacementPage() {
@@ -1683,7 +1879,7 @@ function roofReplacementCostPage() {
   ];
   const body = `${hero({
     kicker: "Roof replacement cost factors",
-    h1: "What Affects Roof Replacement Cost",
+    h1: "What Actually Drives Reroof Pricing",
     description,
     cta: "Request a Written Replacement Estimate",
   })}
@@ -1761,7 +1957,7 @@ function roofReplacementCostPage() {
   ${faqBlock(faqs)}
   <section class="section final-cta"><h2>Get A Written Replacement Estimate</h2><p>Share roof size, material, age, and when you'd like this to happen. We'll help line up the next step.</p><a class="btn primary" href="#quote-form">Get My Free Roofing Estimate</a></section>
   ${lastUpdatedLine()}`;
-  writePage(slug, page(title, description, body, contentPageSchemas({ slug, h1: "What Affects Roof Replacement Cost", description, faqs }), slug), { priority: "0.72" });
+  writePage(slug, page(title, description, body, contentPageSchemas({ slug, h1: "What Actually Drives Reroof Pricing", description, faqs }), slug), { priority: "0.72" });
 }
 
 function roofInsuranceClaimHelpPage() {
@@ -1778,7 +1974,7 @@ function roofInsuranceClaimHelpPage() {
   ];
   const body = `${hero({
     kicker: "Roof insurance claim guidance",
-    h1: "Roof Insurance Claim Help for Homeowners",
+    h1: "Filing a Storm Damage Claim: A Homeowner's Guide",
     description,
     cta: "Request Roofing Help",
   })}
@@ -1844,7 +2040,7 @@ function roofInsuranceClaimHelpPage() {
   ${faqBlock(faqs)}
   <section class="section final-cta"><h2>Start A Roofing Request</h2><p>Share the storm date, damage location, and any photos so the right next step can be arranged.</p><a class="btn primary" href="#quote-form">Get My Free Roofing Estimate</a></section>
   ${lastUpdatedLine()}`;
-  writePage(slug, page(title, description, body, contentPageSchemas({ slug, h1: "Roof Insurance Claim Help for Homeowners", description, faqs }), slug), { priority: "0.70" });
+  writePage(slug, page(title, description, body, contentPageSchemas({ slug, h1: "Filing a Storm Damage Claim: A Homeowner's Guide", description, faqs }), slug), { priority: "0.70" });
 }
 
 function roofingMaterialsPage() {
@@ -1860,7 +2056,7 @@ function roofingMaterialsPage() {
   ];
   const body = `${hero({
     kicker: "Roofing material comparison",
-    h1: "Compare Roofing Materials Before You Choose",
+    h1: "Choosing the Right Material Before You Commit",
     description,
     cta: "Get a Material-Specific Estimate",
   })}
@@ -1926,7 +2122,7 @@ function roofingMaterialsPage() {
   ${faqBlock(faqs)}
   <section class="section final-cta"><h2>Request A Material-Specific Estimate</h2><p>Share the roof slope, current material, project goal, and timing so the next step is clear.</p><a class="btn primary" href="#quote-form">Get My Roofing Estimate</a></section>
   ${lastUpdatedLine()}`;
-  writePage(slug, page(title, description, body, contentPageSchemas({ slug, h1: "Compare Roofing Materials Before You Choose", description, faqs }), slug), { priority: "0.70" });
+  writePage(slug, page(title, description, body, contentPageSchemas({ slug, h1: "Choosing the Right Material Before You Commit", description, faqs }), slug), { priority: "0.70" });
 }
 
 function aboutPage() {

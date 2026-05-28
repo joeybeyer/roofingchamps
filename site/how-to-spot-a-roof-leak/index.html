@@ -34,12 +34,77 @@
   </a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
   <nav id="site-nav" class="site-nav">
-    <a href="/roof-repair/">Repairs</a>
-    <a href="/emergency-roof-repair/">Emergency Help</a>
-    <a href="/roof-replacement/">Replacement</a>
-    <a href="/residential-roofing-services/">Residential</a>
-    <a href="/commercial-roofing-services/">Commercial</a>
-    <a href="/service-areas/">Service Areas</a>
+    <details class="nav-menu">
+      <summary>Roof Repair</summary>
+      <div class="nav-panel">
+        <a href="/roof-repair/">Roof Repair</a>
+        <a href="/emergency-roof-repair/">Emergency Roof Repair</a>
+        <a href="/roof-leak-repair/">Roof Leak Repair</a>
+        <a href="/storm-damage-roof-repair/">Storm Damage Roof Repair</a>
+        <a href="/shingle-roof-repair/">Shingle Roof Repair</a>
+        <a href="/flat-roof-repair/">Flat Roof Repair</a>
+      </div>
+    </details>
+    <details class="nav-menu">
+      <summary>Roof Replacement</summary>
+      <div class="nav-panel">
+        <a href="/roof-replacement/">Roof Replacement</a>
+        <a href="/residential-roof-replacement/">Residential Roof Replacement</a>
+        <a href="/commercial-roof-replacement/">Commercial Roof Replacement</a>
+        <a href="/roof-replacement-cost/">Roof Replacement Cost</a>
+        <a href="/roof-repair-vs-replacement/">Repair vs Replacement</a>
+        <a href="/roofing-materials/">Roofing Materials</a>
+      </div>
+    </details>
+    <details class="nav-menu">
+      <summary>Roofing Services</summary>
+      <div class="nav-panel">
+        <a href="/residential-roofing-services/">Residential Roofing Services</a>
+        <a href="/commercial-roofing-services/">Commercial Roofing Services</a>
+        <a href="/roof-inspection/">Roof Inspection</a>
+        <a href="/free-roof-inspection/">Free Roof Inspection</a>
+        <a href="/metal-roofing/">Metal Roofing</a>
+        <a href="/custom-design-roofs/">Custom Design Roofs</a>
+      </div>
+    </details>
+    <details class="nav-menu nav-menu-wide">
+      <summary>Service Areas</summary>
+      <div class="nav-panel nav-panel-wide">
+        <div>
+          <strong>California</strong>
+          <a href="/roof-repair-culver-city-ca/">Roof Repair Culver City CA</a>
+          <a href="/roof-repair-san-jose-ca/">Roof Repair San Jose CA</a>
+          <a href="/roof-repair-torrance-ca/">Roof Repair Torrance CA</a>
+          <a href="/roof-repair-van-nuys-ca/">Roof Repair Van Nuys CA</a>
+          <a href="/roof-replacement-san-jose-ca/">Roof Replacement San Jose CA</a>
+        </div>
+        <div>
+          <strong>New Jersey</strong>
+          <a href="/roof-repair-cape-may-nj/">Roof Repair Cape May NJ</a>
+          <a href="/roof-repair-vineland-nj/">Roof Repair Vineland NJ</a>
+          <a href="/roof-repair-sewell-nj/">Roof Repair Sewell NJ</a>
+          <a href="/roof-repair-west-caldwell-nj/">Roof Repair West Caldwell NJ</a>
+          <a href="/roof-replacement-vineland-nj/">Roof Replacement Vineland NJ</a>
+        </div>
+        <div>
+          <strong>All Areas</strong>
+          <a href="/service-areas/">Service Areas</a>
+          <a href="/roofing-permits-california/">California Roofing Permits</a>
+          <a href="/roofing-permits-new-jersey/">New Jersey Roofing Permits</a>
+        </div>
+      </div>
+    </details>
+    <details class="nav-menu">
+      <summary>Roofing Guides</summary>
+      <div class="nav-panel">
+        <a href="/faqs/">Roofing FAQs</a>
+        <a href="/signs-you-need-a-new-roof/">Signs You Need a New Roof</a>
+        <a href="/how-much-does-a-new-roof-cost/">New Roof Cost Guide</a>
+        <a href="/how-to-file-insurance-claim-for-roof-damage/">Roof Insurance Claims</a>
+        <a href="/best-roofing-material-for-california-heat/">California Roofing Materials</a>
+        <a href="/best-roofing-material-for-new-jersey-weather/">New Jersey Roofing Materials</a>
+      </div>
+    </details>
     <a href="/how-it-works/">How It Works</a>
   </nav>
   <a class="header-call" href="tel:+14245871420">Call Now</a>
@@ -124,22 +189,55 @@
 
 <section class="section final-cta"><h2>Get a Roofing Estimate</h2><p>Tell us what is happening with your roof and compare practical next steps.</p><a class="btn primary" href="#quote-form">Get My Free Roofing Estimate</a></section></main>
   <footer class="site-footer">
-  <div>
-    <a class="brand footer-brand" href="/"><span class="brand-mark"><img src="/apple-touch-icon.png?v=1" alt="" aria-hidden="true"></span><span><span class="brand-name">Roofing Champs</span><small>Fast roofing help from trusted local roofing professionals.</small></span></a>
-    <p>Roofing Champs helps homeowners request roofing estimates for leaks, storm damage, inspections, repairs, and replacements. We do not use fake local addresses or fake reviews.</p>
+  <div class="footer-top">
+    <div class="footer-col footer-brand-col">
+      <a class="brand footer-brand" href="/"><span class="brand-mark"><img src="/apple-touch-icon.png?v=1" alt="" aria-hidden="true"></span><span><span class="brand-name">Roofing Champs</span><small>Fast roofing help</small></span></a>
+      <p class="footer-blurb">Roofing Champs helps homeowners across California and New Jersey request roofing estimates for leaks, storm damage, inspections, repairs, and replacements. No fake reviews, no fake offices, no pressure calls.</p>
+      <div class="footer-contact">
+        <a href="tel:+14245871420">Call (424) 587-1420</a>
+        <a class="secondary" href="/#quote-form">Get a free estimate</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h2>Services</h2>
+      <a href="/roof-repair/">Roof repair</a>
+      <a href="/emergency-roof-repair/">Emergency repair</a>
+      <a href="/emergency-roof-tarping/">Emergency tarping</a>
+      <a href="/roof-leak-repair/">Leak tracing</a>
+      <a href="/storm-damage-roof-repair/">Storm damage</a>
+      <a href="/roof-inspection/">Inspections</a>
+      <a href="/roof-replacement/">Roof replacement</a>
+      <a href="/roof-repair-vs-replacement/">Repair vs replacement</a>
+      <a href="/roofing-materials/">Roofing materials</a>
+      <a href="/commercial-roofing-services/">Commercial roofing</a>
+    </div>
+    <div class="footer-col">
+      <h2>Company</h2>
+      <a href="/about/">About</a>
+      <a href="/how-it-works/">How it works</a>
+      <a href="/service-areas/">Service areas</a>
+      <a href="/reviews/">Reviews</a>
+      <a href="/faqs/">Roofing FAQs</a>
+      <a href="/roof-insurance-claim-help/">Insurance claim help</a>
+      <a href="/roof-replacement-cost/">Replacement cost</a>
+    </div>
+    <div class="footer-col">
+      <h2>Where we work</h2>
+      <p class="footer-markets">California (Bay Area, Central Valley, LA / South Bay, the Valley) and New Jersey (Cape May County, Gloucester, Essex, North Jersey).</p>
+      <a href="/roofing-permits-california/">CA roofing permits</a>
+      <a href="/roofing-permits-new-jersey/">NJ roofing permits</a>
+      <a href="/best-roofing-material-for-california-heat/">CA material guide</a>
+      <a href="/best-roofing-material-for-new-jersey-weather/">NJ material guide</a>
+    </div>
   </div>
-  <div>
-    <h2>Services</h2>
-    <a href="/roof-repair/">Fixes and Patches</a><a href="/emergency-roof-repair/">Urgent Leak Help</a><a href="/roof-leak-repair/">Leak Tracing</a><a href="/roof-replacement/">New Roof Options</a><a href="/storm-damage-roof-repair/">Storm Checks</a><a href="/roof-inspection/">Inspection Reports</a><a href="/free-roof-inspection/">No-Cost Roof Check</a><a href="/roof-damage-repair/">Damage Repair Help</a><a href="/commercial-roofing-services/">Building Roof Support</a><a href="/commercial-roof-infrared/">Moisture Scan Help</a>
-  </div>
-  <div>
-    <h2>Company</h2>
-    <a href="/about/">About</a>
-    <a href="/how-it-works/">How It Works</a>
-    <a href="/service-areas/">Service Areas</a>
-    <a href="/partner-disclosure/">Partner Disclosure</a>
-    <a href="/privacy-policy/">Privacy Policy</a>
-    <a href="/terms/">Terms</a>
+  <div class="footer-bottom">
+    <p class="footer-fineprint">&copy; 2026 Roofing Champs. Roofing Champs may connect homeowners with roofing professionals or service providers in their area. Consent is not a condition of purchase. Estimates are non-binding.</p>
+    <div class="footer-legal">
+      <a href="/partner-disclosure/">Partner Disclosure</a>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/terms/">Terms</a>
+      <a href="/contact/">Contact</a>
+    </div>
   </div>
 </footer>
   <div class="mobile-stick"><a href="tel:+14245871420">Call Now for Roofing Help</a></div>
