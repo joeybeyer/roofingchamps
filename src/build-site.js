@@ -848,6 +848,9 @@ function home() {
 
 function cityPage(city) {
   const query = `Roof Repair ${city.city} ${city.stateAbbr}`;
+  const title = `Roof Repair ${city.city} ${city.stateAbbr} | Roofing Champs`;
+  const h1 = `Roof Repair in ${city.city}, ${city.stateAbbr}`;
+  const meta = `Need roof repair in ${city.city}, ${city.stateAbbr}? Request help for leaks, storm damage, missing shingles, inspections, and replacement decisions.`;
   const market = marketCopy[city.market];
   const faqs = [
     [`Can I request local help in ${city.city}?`, `Yes. Roofing Champs helps ${city.city} homeowners request roofing help for leaks, missing shingles, storm damage, worn flashing, and other repair needs.`],
@@ -860,7 +863,7 @@ function cityPage(city) {
   const locationLine = city.streetAddress
     ? `${city.streetAddress}, ${city.city}, ${city.stateAbbr} ${city.zip}`
     : `${city.city}, ${city.stateAbbr} ${city.zip}`;
-  const body = `${hero({ kicker: `Trusted roofing help for ${city.city} homeowners`, h1: city.h1, description: city.meta, city: city.city, phoneHref: city.phoneHref })}
+  const body = `${hero({ kicker: `Trusted roofing help for ${city.city} homeowners`, h1, description: meta, city: city.city, phoneHref: city.phoneHref })}
   ${trustBar()}
   <section id="quote-form" class="section split">${quoteForm(city.city)}<div><p class="eyebrow">${city.county}</p><h2>Local Help for ${city.city} Homeowners</h2><p class="query-intro"><strong>Real talk for ${city.city}</strong>: ${city.stateAbbr === "NJ" ? "if you've lived through more than two Jersey winters, you already know what freeze-thaw and the occasional nor'easter do to a roof - this page is for when yours is finally talking back." : "if you've owned a place around here long enough to see a wet winter rotate back through after a dry stretch, you already know which roofs handle it and which ones quietly fail - this page is for the moment yours starts showing signs."}</p><p>Leaks, storm damage, missing shingles, an aging roof - any of it can go from "I'll deal with it next month" to "the ceiling is dripping right now" faster than you'd expect. ${city.stateAbbr === "NJ" ? `In ${city.city}, the specific weather patterns and ${marketCopy[city.market].issues[0].toLowerCase()} make some roof failures more common than others.` : `In ${city.city}, the specific exposure - ${marketCopy[city.market].issues[0].toLowerCase()} and ${marketCopy[city.market].issues[1].toLowerCase()} - puts certain parts of the roof under more stress than others.`} Catching it early genuinely saves money.</p><p>Whether you noticed water stains after the last big rain, shingles missing after a wind event, or you're just looking at a roof that's been on this house since the previous owners - getting it checked beats waiting for the next surprise.</p><div class="location-card" itemscope itemtype="https://schema.org/RoofingContractor"><h3 itemprop="name">${brand.name} ${city.city}</h3><p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">${city.streetAddress ? `<span itemprop="streetAddress">${esc(city.streetAddress)}</span>, ` : ""}<span itemprop="addressLocality">${city.city}</span>, <span itemprop="addressRegion">${city.stateAbbr}</span> <span itemprop="postalCode">${city.zip}</span></p><a itemprop="telephone" href="${city.phoneHref}">${city.phone}</a><meta itemprop="url" content="${brand.domain}${city.url}"><meta itemprop="priceRange" content="$$"><div itemprop="areaServed" itemscope itemtype="https://schema.org/City"><meta itemprop="name" content="${esc(city.city)}"><div itemprop="containedInPlace" itemscope itemtype="https://schema.org/AdministrativeArea"><meta itemprop="name" content="${esc(city.county)}, ${esc(city.state)}"></div></div></div></div></section>
   ${decisionFitSection({ city })}
@@ -868,6 +871,7 @@ function cityPage(city) {
   ${featureUseCaseSection({ city })}
   ${cityClusterSection(city)}
   <section class="section"><div class="section-head"><p class="eyebrow">Services in ${city.city}</p><h2>Repair, Replacement, and Inspection Requests</h2></div>${serviceCards()}</section>
+  ${cityMoneyLinks(city)}
   <section class="section band"><div class="section-head"><p class="eyebrow">Local roof conditions</p><h2>Common Roofing Problems in ${city.city}</h2></div><p class="wide-copy">${market.local} Roofing Champs helps local homeowners request inspections and estimates before small roof problems become interior water damage.</p><div class="mini-list">${market.issues.map((issue) => `<span>${issue}</span>`).join("")}</div></section>
   <section class="section two-col"><article><h2>Urgent Leak Help</h2><p>Look - a leak gets worse the longer you wait. Water reaching the attic, ceiling, walls, or anywhere near electrical fixtures spreads damage that costs way more to fix than the original roof problem. Even a small drip is signaling something bigger upstream. Don't sit on it.</p><a class="btn primary" href="#quote-form">Get Help With a Leak</a><p class="mini-link"><a href="/emergency-roof-tarping/">Emergency roof tarping</a></p></article><article><h2>Storm Damage Checks</h2><p>High winds, heavy rain, hail, flying debris - all of it can damage shingles, flashing, vents, gutters, skylights, and roof valleys. Sometimes the damage is obvious from the curb. Sometimes the most expensive damage is the kind you can't see from the ground at all, which is why a real inspection beats a phone-pic assessment.</p><a class="btn secondary" href="/storm-damage-roof-repair/">Request Storm Help</a></article></section>
   <section class="section two-col"><article><p class="eyebrow">Project planning</p><h2>Permits and Inspection Timing</h2><p>Roofing permit and inspection rules vary by ${city.stateAbbr === "NJ" ? "New Jersey municipality" : "California city and county"} and by project scope. A small repair may not need a permit; a full replacement usually does. Confirm with the local building department before approving an estimate.</p><a class="btn secondary" href="${city.stateAbbr === "NJ" ? "/roofing-permits-new-jersey/" : "/roofing-permits-california/"}">${city.stateAbbr === "NJ" ? "NJ roofing permits guide" : "CA roofing permits guide"}</a></article><article><p class="eyebrow">Decision support</p><h2>Repair, Replace, or Compare Materials</h2><p>Before approving a roofing scope, it can help to compare repair-versus-replacement signals and the material options that fit ${city.city}'s climate and roof types.</p><div class="mini-list"><a href="/roof-repair-vs-replacement/">Repair vs replacement</a><a href="/roofing-materials/">Compare roofing materials</a><a href="${city.stateAbbr === "NJ" ? "/best-roofing-material-for-new-jersey-weather/" : "/best-roofing-material-for-california-heat/"}">${city.stateAbbr === "NJ" ? "Best materials for NJ weather" : "Best materials for CA heat"}</a><a href="/roof-replacement-cost/">Replacement cost factors</a><a href="/roof-insurance-claim-help/">Insurance claim help</a></div></article></section>
@@ -878,7 +882,25 @@ function cityPage(city) {
   }).join("")}</div></section>
   ${faqBlock(faqs)}
   <section class="section final-cta"><h2>Request Roofing Help in ${city.city}</h2><p>Tell us what is happening with your roof and start a free estimate request.</p><a class="btn primary" href="#quote-form">Get My Free Roofing Estimate</a></section>`;
-  writePage(city.slug, page(city.title, city.meta, body, citySchema(city, faqs), city.slug, city), { priority: "0.85" });
+  writePage(city.slug, page(title, meta, body, citySchema(city, faqs), city.slug, city), { priority: "0.85" });
+}
+
+function cityMoneyLinks(city) {
+  const citySlug = city.city.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const replacementSlug = `/roof-replacement-${citySlug}-${city.stateAbbr.toLowerCase()}/`;
+  const replacementLink = replacementCityNames.has(city.city)
+    ? `<a href="${replacementSlug}">Roof Replacement ${city.city} ${city.stateAbbr}</a>`
+    : `<a href="/roof-replacement/">Roof Replacement</a>`;
+  return `<section class="section band"><div class="section-head"><p class="eyebrow">Local service paths</p><h2>Roofing Services for ${city.city} Homeowners</h2></div><div class="link-grid">
+    <a href="${city.url}">Roof Repair ${city.city} ${city.stateAbbr}</a>
+    ${replacementLink}
+    <a href="/emergency-roof-repair/">Emergency Roof Repair</a>
+    <a href="/roof-leak-repair/">Roof Leak Repair</a>
+    <a href="/storm-damage-roof-repair/">Storm Damage Roof Repair</a>
+    <a href="/roof-inspection/">Roof Inspection</a>
+    <a href="/free-roof-inspection/">Free Roof Inspection</a>
+    <a href="/roof-repair-vs-replacement/">Roof Repair vs Replacement</a>
+  </div></section>`;
 }
 
 function serviceRelatedGuides(service) {
@@ -977,30 +999,75 @@ function servicePage(service) {
   const audience = service.slug.startsWith("commercial-") ? "property owners and facility managers" : "homeowners";
   const serviceLabel = serviceNavLabel(service).toLowerCase();
   const pageDescription = sanitizedMeta(service.description, service.name);
+  const title = serviceTitle(service);
+  const h1 = serviceH1(service);
   const faqs = [
     [`When do ${audience} actually need ${serviceLabel}?`, `Usually when ${audience} notice leaks, visible roof wear, storm damage, or some warning sign that they don't want to ignore until it gets worse. If you're on this page, your instinct is probably right - it's worth getting checked.`],
     ["Can you help with urgent stuff?", "Yes - urgent leaks, storm damage, and emergency inspections all run through the same request process. Flag the urgency and it gets prioritized."],
     ["What actually affects the price?", "Roof size, slope, materials, access, damage severity, decking condition, flashing complexity, ventilation needs, and project type. That's why a flat number on a website doesn't mean much - the real quote comes after someone looks at your roof."],
     ["What happens after I submit?", "Your request goes to a local roofing pro with the issue, urgency, property location, and contact details. They reach out to schedule the next step - usually an inspection or written estimate. No commitment until you decide."],
   ];
-  const body = `${hero({ kicker: `${serviceNavLabel(service)} estimate requests`, h1: service.h1, description: pageDescription, cta: service.slug.includes("emergency") ? "Get Help With a Roof Leak" : "Request Roofing Help" })}
+  const body = `${hero({ kicker: `${serviceNavLabel(service)} estimate requests`, h1, description: pageDescription, cta: service.slug.includes("emergency") ? "Get Help With a Roof Leak" : "Request Roofing Help" })}
   ${trustBar()}
   <section id="quote-form" class="section split">${quoteForm()}<div itemscope itemtype="https://schema.org/Service"><meta itemprop="serviceType" content="${esc(service.name)}"><meta itemprop="category" content="Roofing"><div itemprop="provider" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="${esc(brand.name)}"><meta itemprop="url" content="${brand.domain}"></div><div itemprop="areaServed" itemscope itemtype="https://schema.org/State"><meta itemprop="name" content="California"></div><div itemprop="areaServed" itemscope itemtype="https://schema.org/State"><meta itemprop="name" content="New Jersey"></div><p class="eyebrow">When ${audience} land on this page</p><h2 itemprop="name">What This Helps You Sort Out</h2><p class="query-intro"><strong>Honest framing</strong>: this page exists for ${audience} comparing repair, inspection, and replacement options after visible roof damage or water showing up where it shouldn't. If you're somewhere in that decision space, you're in the right spot.</p><p itemprop="description">${pageDescription}</p><div class="mini-list">${service.problems.map((problem) => `<span>${problem}</span>`).join("")}</div>${quoteFormTrustCards({ stepsCardTitle: `What happens after you request ${serviceLabel}` })}<div itemprop="offers" itemscope itemtype="https://schema.org/Offer"><meta itemprop="name" content="${esc(service.name)} estimate request"><meta itemprop="price" content="0"><meta itemprop="priceCurrency" content="USD"><meta itemprop="availability" content="https://schema.org/InStock"><meta itemprop="description" content="Free roofing estimate request for ${esc(service.name.toLowerCase())} - no obligation, no contract"></div></div></section>
   ${decisionFitSection({ service })}
   ${quantifiedSection({ service })}
   ${featureUseCaseSection({ service })}
   <section class="section"><div class="section-head"><p class="eyebrow">Service areas</p><h2>Popular local pages</h2></div><div class="link-grid">${localLinksForService(service)}</div></section>
+  ${serviceMoneyLinks(service)}
   ${serviceRelatedGuides(service)}
   ${faqBlock(faqs)}
   <section class="section final-cta"><h2>Start a Request</h2><p>Start a roofing estimate request and get the next step moving.</p><a class="btn primary" href="#quote-form">Get My Free Roofing Estimate</a></section>`;
-  writePage(service.slug, page(`${service.name} | Roofing Champs`, pageDescription, body, serviceSchema(service, faqs), service.slug), { priority: "0.80" });
+  writePage(service.slug, page(title, pageDescription, body, serviceSchema(service, faqs), service.slug), { priority: "0.80" });
+}
+
+function serviceTitle(service) {
+  if (service.slug === "roof-repair") return "Roof Repair | Roofing Champs";
+  if (service.slug === "roof-replacement") return "Roof Replacement | Roofing Champs";
+  if (service.slug === "roof-leak-repair") return "Roof Leak Repair | Roofing Champs";
+  if (service.slug === "emergency-roof-repair") return "Emergency Roof Repair | Roofing Champs";
+  if (service.slug === "storm-damage-roof-repair") return "Storm Damage Roof Repair | Roofing Champs";
+  return `${service.name} | Roofing Champs`;
+}
+
+function serviceH1(service) {
+  if (service.slug === "roof-repair") return "Roof Repair for Leaks, Storm Damage, and Missing Shingles";
+  if (service.slug === "roof-replacement") return "Roof Replacement Estimates for Aging or Damaged Roofs";
+  if (service.slug === "roof-leak-repair") return "Roof Leak Repair Before Water Damage Spreads";
+  if (service.slug === "emergency-roof-repair") return "Emergency Roof Repair When Water Is Getting In";
+  if (service.slug === "storm-damage-roof-repair") return "Storm Damage Roof Repair After Wind, Rain, or Hail";
+  return service.h1;
+}
+
+function serviceMoneyLinks(service) {
+  const priorityCities = ["Cape May", "Vineland", "Sewell", "San Jose", "Torrance", "Van Nuys"];
+  const cityLinks = priorityCities
+    .map((name) => cities.find((city) => city.city === name))
+    .filter(Boolean)
+    .map((city) => {
+      const citySlug = city.city.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      if (service.slug === "roof-replacement" && replacementCityNames.has(city.city)) {
+        return `<a href="/roof-replacement-${citySlug}-${city.stateAbbr.toLowerCase()}/">Roof Replacement ${city.city} ${city.stateAbbr}</a>`;
+      }
+      return `<a href="${city.url}">Roof Repair ${city.city} ${city.stateAbbr}</a>`;
+    })
+    .join("");
+  return `<section class="section"><div class="section-head"><p class="eyebrow">Money page pathways</p><h2>Service and Location Pages</h2></div><div class="link-grid">
+    <a href="/roof-repair/">Roof Repair</a>
+    <a href="/roof-replacement/">Roof Replacement</a>
+    <a href="/roof-leak-repair/">Roof Leak Repair</a>
+    <a href="/storm-damage-roof-repair/">Storm Damage Roof Repair</a>
+    <a href="/roof-inspection/">Roof Inspection</a>
+    <a href="/service-areas/">All Service Areas</a>
+    ${cityLinks}
+  </div></section>`;
 }
 
 function localLinksForService(service) {
   if (service.slug === "roof-replacement") {
     return cities
       .filter((city) => replacementCityNames.has(city.city))
-      .map((city) => `<a href="/roof-replacement-${city.city.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-${city.stateAbbr.toLowerCase()}/">New roof options in ${city.city}, ${city.stateAbbr}</a>`)
+      .map((city) => `<a href="/roof-replacement-${city.city.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}-${city.stateAbbr.toLowerCase()}/">Roof Replacement ${city.city} ${city.stateAbbr}</a>`)
       .join("");
   }
   // Interleave NJ + CA cities so both markets are represented in the
@@ -1012,7 +1079,7 @@ function localLinksForService(service) {
     if (njCities[i]) mixed.push(njCities[i]);
     if (caCities[i]) mixed.push(caCities[i]);
   }
-  return mixed.map((city) => `<a href="${city.url}">${city.city}, ${city.stateAbbr}</a>`).join("");
+  return mixed.map((city) => `<a href="${city.url}">Roof Repair ${city.city} ${city.stateAbbr}</a>`).join("");
 }
 
 function trustPage(slug, title, h1, copy) {
@@ -1222,7 +1289,7 @@ function replacementCityPage(city) {
   const description = `Need a new roofing system in ${city.city}? Compare materials, tear-off scope, ventilation, cleanup, warranty details, and written estimates.`;
   const body = `${hero({
     kicker: `New roof planning for ${city.city} homeowners`,
-    h1: `New Roofing Systems for ${city.city} Homes`,
+    h1: `Roof Replacement in ${city.city}, ${city.stateAbbr}`,
     description,
     cta: "Request a Replacement Estimate",
     city: city.city,
@@ -1243,9 +1310,23 @@ function replacementCityPage(city) {
     const name = feature.split(/\s+matters?\s+/)[0];
     return `<article class="card"><h3>${esc(name)}</h3><p>${esc(feature)}</p></article>`;
   }).join("")}</div></section>
+  ${replacementCityMoneyLinks(city)}
   <section class="section band"><div class="section-head"><p class="eyebrow">Related answers</p><h2>Planning Questions</h2></div><div class="link-grid"><a href="/how-much-does-a-new-roof-cost/">Cost guide</a><a href="/roof-replacement-cost/">Replacement cost factors</a><a href="/signs-you-need-a-new-roof/">Replacement signs</a><a href="/can-you-roof-over-existing-shingles/">Overlay vs tear-off</a><a href="/how-long-does-roof-installation-take/">Timeline guide</a><a href="/roof-repair-vs-replacement/">Repair vs replacement</a><a href="/roofing-materials/">Compare roofing materials</a><a href="/roof-insurance-claim-help/">Insurance claim help</a></div></section>
   <section class="section final-cta"><h2>Request a Written Estimate in ${city.city}</h2><p>Share the roof age, leak history, material type, and project timing so the next step is clear.</p><a class="btn primary" href="#quote-form">Get My Free Roofing Estimate</a></section>`;
   writePage(slug, page(title, description, body, replacementCitySchema(city, slug), slug, city), { priority: "0.78" });
+}
+
+function replacementCityMoneyLinks(city) {
+  return `<section class="section"><div class="section-head"><p class="eyebrow">Related local services</p><h2>Repair and Replacement Paths in ${city.city}</h2></div><div class="link-grid">
+    <a href="${city.url}">Roof Repair ${city.city} ${city.stateAbbr}</a>
+    <a href="/roof-replacement/">Roof Replacement</a>
+    <a href="/roof-repair-vs-replacement/">Roof Repair vs Replacement</a>
+    <a href="/roof-inspection/">Roof Inspection</a>
+    <a href="/storm-damage-roof-repair/">Storm Damage Roof Repair</a>
+    <a href="/roof-leak-repair/">Roof Leak Repair</a>
+    <a href="${city.stateAbbr === "NJ" ? "/roofing-permits-new-jersey/" : "/roofing-permits-california/"}">${city.stateAbbr === "NJ" ? "New Jersey Roofing Permits" : "California Roofing Permits"}</a>
+    <a href="/service-areas/">All Service Areas</a>
+  </div></section>`;
 }
 
 function replacementCitySchema(city, slug) {
