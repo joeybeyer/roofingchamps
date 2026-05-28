@@ -101,12 +101,12 @@ p {
 }
 
 .brand-mark {
-  flex: 0 0 42px;
-  width: 42px;
-  height: 42px;
-  max-width: 42px;
-  max-height: 42px;
-  border-radius: 8px;
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  max-width: 56px;
+  max-height: 56px;
+  border-radius: 10px;
   background: var(--navy);
   overflow: hidden;
 }
@@ -123,8 +123,8 @@ p {
 
 .site-footer .brand-mark,
 .site-footer .brand-mark img {
-  width: 42px;
-  height: 42px;
+  width: 64px;
+  height: 64px;
 }
 
 .site-nav {
@@ -778,9 +778,9 @@ details p {
 }
 
 .site-footer .footer-brand .brand-mark {
-  flex: 0 0 48px;
-  width: 48px;
-  height: 48px;
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
   background: rgba(255, 255, 255, 0.06);
 }
 
