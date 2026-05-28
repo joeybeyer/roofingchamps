@@ -1,0 +1,107 @@
+# Roofing Champs
+
+> Roofing Champs helps homeowners in California and New Jersey request fast, honest roofing estimates from local roofing professionals. The site covers roof repair, emergency leak help, roof replacement, residential and commercial roofing, inspections, and homeowner education content (cost guides, repair-vs-replacement, insurance claims, and material selection). Roofing Champs does not use fake local addresses or fake reviews.
+
+## Core services
+
+- [Roof Repair](https://www.roofingchamps.net/roof-repair/): Fixes for leaks, missing shingles, flashing failures, and storm damage.
+- [Emergency Roof Repair](https://www.roofingchamps.net/emergency-roof-repair/): Urgent leak and storm response when water is entering the home.
+- [Roof Leak Repair](https://www.roofingchamps.net/roof-leak-repair/): Leak tracing for ceiling stains, attic moisture, and flashing failures.
+- [Roof Replacement](https://www.roofingchamps.net/roof-replacement/): New roof options when repair is no longer the right call.
+- [Storm Damage Roof Repair](https://www.roofingchamps.net/storm-damage-roof-repair/): Wind, hail, and debris damage inspections and repair estimates.
+- [Roof Inspection](https://www.roofingchamps.net/roof-inspection/): Full-roof inspection reports for buyers, sellers, and post-storm checks.
+- [Free Roof Inspection](https://www.roofingchamps.net/free-roof-inspection/): No-cost visual roof check for leaks, age, and storm damage.
+- [Roof Damage Repair](https://www.roofingchamps.net/roof-damage-repair/): Repair help for wind, hail, debris, missing shingles, and age-related wear.
+- [Shingle Roof Repair](https://www.roofingchamps.net/shingle-roof-repair/): Targeted repair for missing, cracked, curled, or lifted shingles.
+- [Flat Roof Repair](https://www.roofingchamps.net/flat-roof-repair/): Drainage, seam, flashing, and penetration repairs for low-slope roofs.
+- [Flat Roof Repair and Install](https://www.roofingchamps.net/flat-roof-repair-install/): Repair and install planning for low-slope membrane systems.
+- [Metal Roofing](https://www.roofingchamps.net/metal-roofing/): Metal roofing comparison and installation planning.
+- [Custom Design Roofs](https://www.roofingchamps.net/custom-design-roofs/): Custom roofing layouts and detailing for unusual homes and buildings.
+
+## Residential and commercial
+
+- [Residential Roofing Services](https://www.roofingchamps.net/residential-roofing-services/): Home roofing support hub.
+- [Residential Roof Repair](https://www.roofingchamps.net/residential-roof-repair/): Repair help for homes with leaks, missing shingles, or storm damage.
+- [Residential Roof Replacement](https://www.roofingchamps.net/residential-roof-replacement/): Replacement planning for homeowners.
+- [Commercial Roofing Services](https://www.roofingchamps.net/commercial-roofing-services/): Building roof support hub for facility managers and owners.
+- [Commercial Roof Repair](https://www.roofingchamps.net/commercial-roof-repair/): Leak, ponding, and membrane repair for commercial buildings.
+- [Commercial Roof Replacement](https://www.roofingchamps.net/commercial-roof-replacement/): Re-roof planning for commercial properties.
+- [Commercial Roof Restoration](https://www.roofingchamps.net/commercial-roof-restoration/): Service-life extension for suitable low-slope systems.
+- [Commercial Roof Maintenance](https://www.roofingchamps.net/commercial-roof-maintenance/): Preventive maintenance for commercial roofs.
+- [Commercial Roof Infrared](https://www.roofingchamps.net/commercial-roof-infrared/): Infrared moisture scans for hidden commercial roof problems.
+
+## Homeowner answers and guides
+
+- [How Much Does a New Roof Cost?](https://www.roofingchamps.net/how-much-does-a-new-roof-cost/): Typical $8,000-$18,000 cost range with the actual drivers (size, slope, material, decking, tear-off, labor).
+- [Roof Repair vs Replacement](https://www.roofingchamps.net/roof-repair-vs-replacement/): Decision framework based on age, leak history, decking condition, and storm damage.
+- [Signs You Need a New Roof](https://www.roofingchamps.net/signs-you-need-a-new-roof/): Symptoms that indicate replacement, not another patch.
+- [Old Roof: Repair or Replace](https://www.roofingchamps.net/old-roof-repair-or-replace/): When age tips the math toward replacement.
+- [How Long Does a Roof Last](https://www.roofingchamps.net/how-long-does-a-roof-last/): Lifespan by material (asphalt, metal, tile, flat membrane).
+- [How Long Does Roof Installation Take](https://www.roofingchamps.net/how-long-does-roof-installation-take/): Typical 1-3 day timelines and what extends them.
+- [Best Time to Replace a Roof](https://www.roofingchamps.net/best-time-to-replace-a-roof/): Weather windows for safe installation.
+- [Can You Roof Over Existing Shingles](https://www.roofingchamps.net/can-you-roof-over-existing-shingles/): When overlay is allowed versus tear-off only.
+- [Best Roofing Material for California Heat](https://www.roofingchamps.net/best-roofing-material-for-california-heat/): UV, heat, and fire-rated material selection.
+- [Best Roofing Material for New Jersey Weather](https://www.roofingchamps.net/best-roofing-material-for-new-jersey-weather/): Freeze-thaw, snow, and coastal salt-air material selection.
+- [Roofing Materials](https://www.roofingchamps.net/roofing-materials/): Side-by-side material comparison.
+- [Roof Replacement Cost](https://www.roofingchamps.net/roof-replacement-cost/): Cost factors and breakdown by component.
+- [Roofing Permits California](https://www.roofingchamps.net/roofing-permits-california/): Permit requirements for California roofing work.
+- [Roofing Permits New Jersey](https://www.roofingchamps.net/roofing-permits-new-jersey/): Permit requirements for New Jersey roofing work.
+
+## Emergency and insurance
+
+- [Emergency Roof Tarping](https://www.roofingchamps.net/emergency-roof-tarping/): Storm leak mitigation guidance and tarping requests.
+- [Roof Leaking After Rain](https://www.roofingchamps.net/roof-leaking-after-rain/): Common causes and next steps for post-rain leaks.
+- [Storm Damaged Roof](https://www.roofingchamps.net/storm-damaged-roof/): Storm damage triage.
+- [Missing Shingles](https://www.roofingchamps.net/missing-shingles/): What to do when shingles are gone.
+- [Water Stains on Ceiling](https://www.roofingchamps.net/water-stains-on-ceiling/): How ceiling stains map to roof problems.
+- [Flat Roof Ponding Water](https://www.roofingchamps.net/flat-roof-ponding-water/): Diagnosing and fixing low-slope ponding.
+- [Roof Flashing Damage](https://www.roofingchamps.net/roof-flashing-damage/): Flashing failures around chimneys, walls, and vents.
+- [Does Homeowners Insurance Cover Roof Replacement](https://www.roofingchamps.net/does-homeowners-insurance-cover-roof-replacement/): What policies typically cover.
+- [How to File Insurance Claim for Roof Damage](https://www.roofingchamps.net/how-to-file-insurance-claim-for-roof-damage/): Step-by-step claim guidance.
+- [Roof Insurance Claim Help](https://www.roofingchamps.net/roof-insurance-claim-help/): Full insurance claim hub.
+
+## Service areas
+
+- [Service Areas](https://www.roofingchamps.net/service-areas/): Index of all California and New Jersey city pages.
+
+### New Jersey cities
+
+- [Cape May, NJ](https://www.roofingchamps.net/roof-repair-cape-may-nj/)
+- [North Cape May, NJ](https://www.roofingchamps.net/roof-repair-north-cape-may-nj/)
+- [Villas, NJ](https://www.roofingchamps.net/roof-repair-villas-nj/)
+- [Elizabeth, NJ](https://www.roofingchamps.net/roof-repair-elizabeth-nj/)
+- [Newfield, NJ](https://www.roofingchamps.net/roof-repair-newfield-nj/)
+- [Sewell, NJ](https://www.roofingchamps.net/roof-repair-sewell-nj/)
+- [Stanhope, NJ](https://www.roofingchamps.net/roof-repair-stanhope-nj/)
+- [Turnersville, NJ](https://www.roofingchamps.net/roof-repair-turnersville-nj/)
+- [Vineland, NJ](https://www.roofingchamps.net/roof-repair-vineland-nj/)
+- [West Caldwell, NJ](https://www.roofingchamps.net/roof-repair-west-caldwell-nj/)
+- [Williamstown, NJ](https://www.roofingchamps.net/roof-repair-williamstown-nj/)
+- [Woodbury Heights, NJ](https://www.roofingchamps.net/roof-repair-woodbury-heights-nj/)
+
+### California cities
+
+- [Culver City, CA](https://www.roofingchamps.net/roof-repair-culver-city-ca/)
+- [Gilroy, CA](https://www.roofingchamps.net/roof-repair-gilroy-ca/)
+- [Oakdale, CA](https://www.roofingchamps.net/roof-repair-oakdale-ca/)
+- [San Jose, CA](https://www.roofingchamps.net/roof-repair-san-jose-ca/)
+- [San Pedro, CA](https://www.roofingchamps.net/roof-repair-san-pedro-ca/)
+- [Torrance, CA](https://www.roofingchamps.net/roof-repair-torrance-ca/)
+- [Turlock, CA](https://www.roofingchamps.net/roof-repair-turlock-ca/)
+- [Van Nuys, CA](https://www.roofingchamps.net/roof-repair-van-nuys-ca/)
+- [Winnetka, CA](https://www.roofingchamps.net/roof-repair-winnetka-ca/)
+
+## Company
+
+- [About](https://www.roofingchamps.net/about/): About Roofing Champs.
+- [How It Works](https://www.roofingchamps.net/how-it-works/): How the homeowner request process works.
+- [Contact](https://www.roofingchamps.net/contact/): Contact details and request form.
+- [Reviews](https://www.roofingchamps.net/reviews/): Verified homeowner reviews only - no fabricated quotes.
+- [FAQs](https://www.roofingchamps.net/faqs/): Frequently asked roofing questions.
+
+## Optional
+
+- [Partner Disclosure](https://www.roofingchamps.net/partner-disclosure/): How Roofing Champs partners with local roofing professionals.
+- [Privacy Policy](https://www.roofingchamps.net/privacy-policy/): Privacy practices.
+- [Terms](https://www.roofingchamps.net/terms/): Site terms of use.
+- [Sitemap](https://www.roofingchamps.net/sitemap.xml): Full XML sitemap.

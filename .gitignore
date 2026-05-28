@@ -6,3 +6,4 @@ server.err.log
 roofingchamps-site.zip
 Gemini_Generated_Image_*.png
 .env
+site/assets/generated/raw/

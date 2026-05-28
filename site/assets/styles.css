@@ -85,12 +85,13 @@ p {
   text-decoration: none;
 }
 
-.brand strong {
+.brand-name {
   display: block;
   color: var(--navy);
   font-family: Montserrat, Inter, sans-serif;
   font-size: 1rem;
   line-height: 1;
+  font-weight: 800;
 }
 
 .brand small {
@@ -246,6 +247,29 @@ p {
   box-shadow: var(--shadow);
 }
 
+.answer-hero {
+  padding: clamp(34px, 6vw, 76px) clamp(18px, 4vw, 56px);
+  background: #f6f9fb;
+}
+
+.quick-answer-box {
+  max-width: 980px;
+  padding: clamp(22px, 4vw, 36px);
+  border-left: 5px solid var(--gold);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.quick-answer-box h1 {
+  font-size: clamp(1.9rem, 4vw, 3.4rem);
+}
+
+.quick-answer-box p:last-child {
+  margin-bottom: 0;
+  font-size: clamp(1.02rem, 2vw, 1.24rem);
+}
+
 .trust-bar {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -380,6 +404,30 @@ textarea {
   text-decoration: none;
 }
 
+.location-card {
+  max-width: 420px;
+  margin-top: 24px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.location-card h3 {
+  margin-bottom: 8px;
+}
+
+.location-card p {
+  margin-bottom: 8px;
+  color: #40515b;
+}
+
+.location-card a {
+  color: var(--red);
+  font-weight: 900;
+  text-decoration: none;
+}
+
 .steps {
   display: grid;
   gap: 12px;
@@ -444,9 +492,33 @@ details p {
   font-weight: 700;
 }
 
-.site-footer .brand strong,
+.site-footer .brand-name,
 .site-footer .brand small {
   color: var(--white);
+}
+
+.decision-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.decision-grid article {
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.decision-fit {
+  background: #fff8df;
+}
+
+.query-intro,
+.inline-answer {
+  max-width: 900px;
+  color: #34454f;
+  font-size: 1.04rem;
 }
 
 .mobile-stick {
@@ -502,7 +574,8 @@ details p {
   }
 
   .trust-bar,
-  .card-grid {
+  .card-grid,
+  .decision-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -525,7 +598,8 @@ details p {
   .trust-list,
   .field-grid,
   .trust-bar,
-  .card-grid {
+  .card-grid,
+  .decision-grid {
     grid-template-columns: 1fr;
   }
 
