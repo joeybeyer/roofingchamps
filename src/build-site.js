@@ -832,6 +832,18 @@ function cityClusterSection(city) {
 </section>`;
 }
 
+function cityMapEmbedSection(city) {
+  if (city.city === "San Jose" && city.streetAddress === "3150 Remington Way") {
+    return `<section class="section map-section">
+  <div class="section-head"><p class="eyebrow">San Jose service location</p><h2>Roofing Champs Near 3150 Remington Way</h2></div>
+  <div class="map-embed" aria-label="Map showing ClearShield Roofing in San Jose, California">
+    <iframe title="Google map for ClearShield Roofing in San Jose" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.7360260314176!2d-121.78668319999998!3d37.3250801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e2dea95a8a695%3A0x69fd4bb3df695aff!2sClearShield%20Roofing!5e0!3m2!1sen!2sus!4v1781179237646!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>`;
+  }
+  return "";
+}
+
 function faqBlock(faqs) {
   return `<section class="section faq"><div class="section-head"><p class="eyebrow">Answers for homeowners</p><h2>Frequently Asked Questions</h2></div>${faqs.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>`;
 }
@@ -879,6 +891,7 @@ function cityPage(city) {
   const body = `${hero({ kicker: `Trusted roofing help for ${city.city} homeowners`, h1, description: meta, city: city.city, phoneHref: city.phoneHref })}
   ${trustBar()}
   <section id="quote-form" class="section split">${quoteForm(city.city)}<div><p class="eyebrow">${city.county}</p><h2>Local Help for ${city.city} Homeowners</h2><p class="query-intro"><strong>Real talk for ${city.city}</strong>: ${city.stateAbbr === "NJ" ? "if you've lived through more than two Jersey winters, you already know what freeze-thaw and the occasional nor'easter do to a roof - this page is for when yours is finally talking back." : "if you've owned a place around here long enough to see a wet winter rotate back through after a dry stretch, you already know which roofs handle it and which ones quietly fail - this page is for the moment yours starts showing signs."}</p><p>Leaks, storm damage, missing shingles, an aging roof - any of it can go from "I'll deal with it next month" to "the ceiling is dripping right now" faster than you'd expect. ${city.stateAbbr === "NJ" ? `In ${city.city}, the specific weather patterns and ${marketCopy[city.market].issues[0].toLowerCase()} make some roof failures more common than others.` : `In ${city.city}, the specific exposure - ${marketCopy[city.market].issues[0].toLowerCase()} and ${marketCopy[city.market].issues[1].toLowerCase()} - puts certain parts of the roof under more stress than others.`} Catching it early genuinely saves money.</p><p>Whether you noticed water stains after the last big rain, shingles missing after a wind event, or you're just looking at a roof that's been on this house since the previous owners - getting it checked beats waiting for the next surprise.</p><div class="location-card" itemscope itemtype="https://schema.org/RoofingContractor"><h3 itemprop="name">${brand.name} ${city.city}</h3><p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">${city.streetAddress ? `<span itemprop="streetAddress">${esc(city.streetAddress)}</span>, ` : ""}<span itemprop="addressLocality">${city.city}</span>, <span itemprop="addressRegion">${city.stateAbbr}</span> <span itemprop="postalCode">${city.zip}</span></p><a itemprop="telephone" href="${city.phoneHref}">${city.phone}</a><meta itemprop="url" content="${brand.domain}${city.url}"><meta itemprop="priceRange" content="$$"><div itemprop="areaServed" itemscope itemtype="https://schema.org/City"><meta itemprop="name" content="${esc(city.city)}"><div itemprop="containedInPlace" itemscope itemtype="https://schema.org/AdministrativeArea"><meta itemprop="name" content="${esc(city.county)}, ${esc(city.state)}"></div></div></div></div></section>
+  ${cityMapEmbedSection(city)}
   ${decisionFitSection({ city })}
   ${quantifiedSection({ city })}
   ${featureUseCaseSection({ city })}
@@ -1433,7 +1446,7 @@ Sitemap: ${brand.domain}/sitemap.xml
   X-Frame-Options: SAMEORIGIN
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
-  Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self'; frame-src https://www.google.com; frame-ancestors 'self'; base-uri 'self'
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
